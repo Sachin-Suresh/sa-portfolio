@@ -49,11 +49,16 @@ author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-pictu
 author-about: |
   Sachin is a senior technical writer with a demonstrated history of creating impactful technical documentation.
   Sachin is also groomed with diversified software skills across verticals!
-  industries:
-    - title: Industries: Software, Product documentation, Healthcare etc.
-    - title: Documents: User Guides, Quick Start Guides, Release Notes, API documentation, White papers, e-books etc.
-    - title: Software tools: XMetal, Windchill, Adobe Premiere Pro 2020, Adobe XD, SnagIT, Visio, Google Docs.
+  Industries: Software, Product documentation, Healthcare etc.
+  Documents: User Guides, Quick Start Guides, Release Notes, API documentation, White papers, e-books etc.
+  Software tools: XMetal, Windchill, Adobe Premiere Pro 2020, Adobe XD, SnagIT, Visio, Google Docs.
   Here, you can find out about my content work and get a little taste of what I’m all about.
+  salesteams:
+- title: Regions
+ subfolderitems:
+   - location: US
+   - location: Spain
+   - location: France
 
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/thedevslot
