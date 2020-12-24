@@ -55,11 +55,11 @@ author-about: |
   Here, you can find out about my content work and get a little taste of what I’m all about.
 
 salesteams:
-- title: Regions
- subfolderitems:
-   - location: US
-   - location: Spain
-   - location: France
+  - title: Regions
+    subfolderitems:
+      - location: US
+      - location: Spain
+      - location: France
 
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/thedevslot
