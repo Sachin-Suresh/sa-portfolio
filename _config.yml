@@ -53,7 +53,8 @@ author-about: |
   Documents: User Guides, Quick Start Guides, Release Notes, API documentation, White papers, e-books etc.
   Software tools: XMetal, Windchill, Adobe Premiere Pro 2020, Adobe XD, SnagIT, Visio, Google Docs.
   Here, you can find out about my content work and get a little taste of what I’m all about.
-  salesteams:
+
+salesteams:
 - title: Regions
  subfolderitems:
    - location: US
