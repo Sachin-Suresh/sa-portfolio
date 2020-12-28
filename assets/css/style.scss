@@ -107,6 +107,7 @@ a.navbar-item.is-active {
     
     
         /************* BEGIN PROGRESS BAR *********/
+    #progress-div{
         .progress-outer{
             background: #fff;
             border-radius: 50px;
@@ -145,6 +146,7 @@ a.navbar-item.is-active {
         }
         /************* END PROGRESS BAR *********/
     }
+}
 
 #blog {
     .hero-body {
