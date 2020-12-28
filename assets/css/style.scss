@@ -134,6 +134,7 @@ a.navbar-item.is-active {
             font-weight: bold;
             color: #fff;
             letter-spacing: 2px;
+            white-space: pre;
         }
         .progress-bar.active{
             animation: reverse progress-bar-stripes 0.40s linear infinite, animate-positive 2s;
