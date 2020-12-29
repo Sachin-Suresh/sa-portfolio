@@ -1,5 +1,5 @@
 ---
-layout: project
-title: Projects
+layout: past-project
+title: Past project screenshots
 ---
 
