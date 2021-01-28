@@ -128,7 +128,8 @@ a.navbar-item.is-active {
         }
         .progress .progress-value{
             position: relative;
-            left: -45px;
+            /*left: -45px;*/
+            right: 17em;
             top: 4px;
             font-size: 14px;
             font-weight: bold;
