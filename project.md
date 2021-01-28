@@ -1,5 +1,5 @@
 ---
 layout: past-project
-title: Past project screenshots
+title: Past Project Screenshots
 ---
 
