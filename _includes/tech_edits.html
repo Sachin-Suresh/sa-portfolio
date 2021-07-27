@@ -4,7 +4,7 @@
         id="project-card">
         <a href="{{project.link}}" target="_blank">
         <div class="has-background-black card">
-        <h5 class="card-header">Featured</h5>
+            <h5 class="card-header">Featured</h5>
           <figure class="image is-3by1" style="background-image: url({{project.image}});">
           </figure>
           <div class="card-content">
@@ -12,6 +12,24 @@
             <p class="has-text-white has-text-weight-light content">{{ project.description | truncate: 80}}</p>
           </div>
         </div>
+
+        <div class="card mb-4 text-white bg-dark">
+            <img class="card-img-top" src="//placeimg.com/290/180/any" alt="Card image cap">
+            <div class="card-body">
+               <h5 class="card-title">Card title</h5>
+               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               <a href="http://www.jquery2dotnet.com/" class="btn btn-outline-light btn-sm">Go somewhere</a>
+            </div>
+         </div>
+
+         <div class="card mb-4 text-white bg-dark">
+            <img class="card-img-top" src="//placeimg.com/290/180/any" alt="Card image cap">
+            <div class="card-body">
+               <h5 class="card-title">Card title</h5>
+               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               <a href="http://www.jquery2dotnet.com/" class="btn btn-outline-light btn-sm">Go somewhere</a>
+            </div>
+         </div>
         </a>
       </div>
     {% endfor %}
