@@ -1,4 +1,5 @@
 - name: Authenticate Users Over WebSockets with JWT
+  contributor: https://github.com/nasanos
   image: https://res.cloudinary.com/do9dkzjbn/image/upload/v1616678542/fastapi_croqnk.png
   link: https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:2690bf58-d976-41a2-ba30-4561ca8163cc
   description: The WebSocket Protocol is an open standard for real-time communications. It  allows for full-duplex, bidirectional communication between clients and servers on the web.
