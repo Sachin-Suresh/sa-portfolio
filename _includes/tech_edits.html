@@ -17,7 +17,7 @@
             <img class="card-img-top" src="//placeimg.com/280/180/tech" alt="Card image cap">
             <div class="card-body">
                <h5 class="card-title border-bottom pb-3 has-text-white is-size-4">{{ project.name }}</h5>
-               <h5 class="card-title border-bottom pb-3 has-text-white is-size-4">Contributor: {{ project.contributor }}</h5>
+               <h6 class="card-title border-bottom pb-3 has-text-white is-size-4">Contributor: {{ project.contributor }}</h6>
                <p class="card-text has-text-white has-text-weight-light content">{{ project.description | truncate: 100}}</p>
                <a href="{{project.link}}" class="float-right">Read more <i class="fas fa-angle-double-right"></i></a>
             </div>
