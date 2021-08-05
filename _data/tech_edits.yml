@@ -1,6 +1,6 @@
 - name: Authenticate Users Over WebSockets with JWT
   contributor: Nathaniel Stickman
-  image: https://www.linkpicture.com/q/rsz_11jwt.jpg
+  image: https://www.linkpicture.com/q/rsz_jwt.jpg
   link: https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:fd633d6d-371f-4773-b3d8-7c580b9d3735
   description: The WebSocket Protocol is an open standard for real-time communications. It  allows for full-duplex, bidirectional communication between clients and servers on the web.
 - name: An Introduction to the Jamstack
