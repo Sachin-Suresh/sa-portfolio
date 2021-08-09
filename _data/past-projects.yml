@@ -1,18 +1,14 @@
 - name: CRUD | FastAPI in Python
-  image: https://res.cloudinary.com/do9dkzjbn/image/upload/v1616678542/fastapi_croqnk.png
+  image: https://www.linkpicture.com/q/rsz_fastapi.jpg
   link: https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:618ec462-54f0-451c-88d5-276cff7890e7
   description: This blog post shows how to implement CRUD READ operations in Python Using FastAPI
 - name: Power BI workspaces
-  image: https://res.cloudinary.com/do9dkzjbn/image/upload/c_scale,h_121,q_100,r_0,w_365/v1611826474/bi_p8tdlp.jpg
+  image: https://www.linkpicture.com/q/rsz_1rsz_1rsz_pbi_1.jpg
   link: https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:d57fa7f3-1b1a-4bdc-91bd-640f0bfb5f3f
   description: This article explains how to create a new workspaces and datasets.
-- name: Power Apps Mobile
-  link: https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:5653efba-a354-42b0-b3cf-968bd08b8608
-  image: https://res.cloudinary.com/do9dkzjbn/image/upload/c_scale,h_118,w_356/v1611828469/pa_ptjbfc.jpg
-  description: Use the Power Apps mobile to run both canvas & model-driven apps on your mobile.
 - name: Pre Employment Testing | The Know-How's
   link: https://res.cloudinary.com/do9dkzjbn/image/upload/v1611828840/Preemployment_testing_t9olnj.jpg
-  image: https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822_960_720.jpg
+  image: https://www.linkpicture.com/q/rsz_pemt.jpg
   description: The need & Effectiveness of Pre Employment Testing.
 - name: Stratagies to Recruit Developers
   link: https://res.cloudinary.com/do9dkzjbn/image/upload/v1611829126/Stratagies_swgcgr.jpg
