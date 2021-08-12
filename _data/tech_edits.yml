@@ -1,7 +1,7 @@
 - name: Filter Data using AWK RegEx
   contributor: Esther Schindler
   image: https://www.linkpicture.com/q/rsz_awk.jpg
-  link: https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:177aeee1-70e0-45d8-b237-306e58173f96
+  link: https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:957624aa-5257-4556-84b1-7d40c23e9e97
   description: Learn how to filter data in text files using AWK RegEx
 - name: Authenticate Users Over WebSockets with JWT
   contributor: Nathaniel Stickman
