@@ -1,16 +1,21 @@
+- name: Filter Data using AWK RegEx
+  contributor: Esther Schindler
+  image: https://www.linkpicture.com/q/rsz_awk.jpg
+  link: https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:957624aa-5257-4556-84b1-7d40c23e9e97
+  description: Learn how to filter data in text files using AWK RegEx
 - name: Authenticate Users Over WebSockets with JWT
   contributor: Nathaniel Stickman
   image: https://www.linkpicture.com/q/rsz_jwt.jpg
-  link: https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:fd633d6d-371f-4773-b3d8-7c580b9d3735
+  link: https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:81ddcc18-2d7d-4e51-8847-2011200f9758
   description: The WebSocket Protocol is an open standard for real-time communications. It  allows for full-duplex, bidirectional communication between clients and servers on the web.
 - name: An Introduction to the Jamstack
   contributor: Nathaniel Stickman
   image: https://www.linkpicture.com/q/jamresized.jpg
-  link: https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:e28b31d5-942e-4d37-8f3d-742179b6dced
+  link: https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:12517b8d-4c14-46f6-ba0e-b8d2c38eb4e6
   description: Learn about the components of the Jamstack and some of the best practices for making a Jamstack application
 - name: How to Install Mastodon on Debian 10
   contributor: Nathaniel Stickman
   image: https://www.linkpicture.com/q/rsz_mastadon.jpg
-  link: https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:57a992e2-68ca-4296-8bc9-81ad33c9810f
+  link: https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:48aa09f3-ed0a-471b-a762-864724ec4bd5
   description: Mastodon is an open source and self-hosted microblogging platform.
 
