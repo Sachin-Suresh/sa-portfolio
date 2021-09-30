@@ -1,16 +1,16 @@
 - name: Users Guide
-  image: https://www.linkpicture.com/q/rsz_pdug.jpg
+  image: https://drive.google.com/file/d/1h1ycYzzB-chFlWGPkyfD3HjU7Nvt-pts/view?usp=sharing
   link: https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:0f91fbc5-9df7-49ff-8b53-a652f564c32f
   description: This Users Gudie enables engineers to verify the servers deployment details.
 - name: REST API Guide
   link: https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:8c031b9c-884d-49ec-8d96-5c6dded9ee72
-  image: https://www.linkpicture.com/q/rsz_1resapi.jpg
+  image: https://drive.google.com/file/d/1dix4IbDdoTOTmhLWipdBp1Zg_n20l2RL/view?usp=sharing
   description: Provides information on integrating data center tools & applications with SupportAssist Enterprise.
 - name: Setup Guide
   link: https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:3e045a0c-122e-4f3c-9767-08dcd2a51aeb
-  image: https://www.linkpicture.com/q/rsz_pmsg.jpg
+  image: https://drive.google.com/file/d/1DXnALn2hKc47btwVCMLQambvPjyGvi1w/view?usp=sharing
   description: Provides proactive hardware & software performance tuning, health monitoring information etc.
 - name: Release Notes
   link: https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:705c467e-6625-4de8-bef5-750fdf49e299
-  image: https://www.linkpicture.com/q/rsz_1rsz_rhrn.jpg
+  image: https://drive.google.com/file/d/1rq9Tlzo8TcJ24p9sDG0ykVQc1G3it3A5/view?usp=sharing
   description: Provides information about the issues & workarounds for RHEL 8 OS.
