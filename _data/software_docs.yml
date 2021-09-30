@@ -1,5 +1,5 @@
 - name: Users Guide
-  image: https://drive.google.com/file/d/1h1ycYzzB-chFlWGPkyfD3HjU7Nvt-pts/view?usp=sharing
+  image: ../assets/images/usersguide.jpg
   link: https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:0f91fbc5-9df7-49ff-8b53-a652f564c32f
   description: This Users Gudie enables engineers to verify the servers deployment details.
 - name: REST API Guide
