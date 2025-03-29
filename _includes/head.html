@@ -1,15 +1,43 @@
 <head>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
     {% include meta.html %}
-    <title>{{site.title}}</title>
+    <title>{{ site.title }}</title>
 
-    <link rel="stylesheet" href="{% if site.baseurl %}{{site.baseurl}}{% else %}{% endif %}/assets/css/style.css">
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
+
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/assets/css/style.css">
+    <link rel="shortcut icon" href="{% if site.favicon-url %}{{ site.favicon-url }}{% else %}{{ 'assets/images/logo.png' | absolute_url }}{% endif %}" type="image/x-icon">
+
+    <!-- Icons -->
     <script src="https://kit.fontawesome.com/6a97161b76.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="{% if site.favicon-url %}{{site.favicon-url}}{% else %}{{ 'assets/images/logo.png' | absolute_url }}{% endif %}" type="image/x-icon">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
-    <!--Get your own code at fontawesome.com-->
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <!--logos-postman-->
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 
-</head>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="{{ site.description }}">
+    <meta name="keywords" content="technical writing, documentation, portfolio, proofreading, UX writing, API docs, Sachin S">
+    <meta name="author" content="{{ site.author-name }}">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:image" content="{{ site.site-image }}">
+    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ site.title }}">
+    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="twitter:image" content="{{ site.site-image }}">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}/">
+  </head>
