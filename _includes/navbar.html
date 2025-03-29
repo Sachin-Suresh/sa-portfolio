@@ -17,15 +17,15 @@
       <div class="navbar-menu has-background-black" id="navbar-menu">
         <div class="navbar-end">
           <a class="navbar-item {% if page.url == '/' %}is-active{% endif %}" href="{{site.url}}{{site.baseurl}}/">Home</a>
-          <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#about">Skills</a>
+          <a class="navbar-item {% if page.url == '/skills/' %}is-active{% endif %}" href="{{site.url}}{{site.baseurl}}/skills/">Skills</a>
           <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#featured">Featured</a>
 
           <div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link">Samples</a>
             <div class="navbar-dropdown">
-              <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/Software-documentations">Documentation</a>
-              <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/project">Screenshots</a>
-              <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/tech-edits">Edits</a>
+                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/documentation/">Documentation</a>
+                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/full-portfolio/">Full Portfolio</a>
+                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/edits/">UI/UX & Tech Edits</a>
             </div>
           </div>
         </div>
@@ -33,6 +33,13 @@
 
     </div>
   </nav>
+
+  <style>
+    .navbar-dropdown a.navbar-item:hover {
+      background-color: #f5f5f5 !important;
+      color: #000 !important;
+    }
+  </style>
 
   <!-- Bulma Navbar Toggle Script -->
   <script>

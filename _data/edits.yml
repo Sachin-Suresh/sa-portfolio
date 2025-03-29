@@ -1,0 +1,11 @@
+- icon: "✏️"
+  title: "Technical Copyedit - Robotics Spec"
+  description: "Edited end-to-end navigation flow and safety terms."
+  link_text: "View Sample"
+  link_url: "https://example.com/edit-sample1"
+
+- icon: "🛠"
+  title: "UI Text Improvements"
+  description: "Simplified technical UI copy for better user comprehension."
+  link_text: "View Sample"
+  link_url: "https://example.com/edit-sample2"

@@ -68,22 +68,6 @@ a.navbar-item.is-active {
     letter-spacing: 0.25rem;
 }
 
-#about {
-    .image {
-        max-width: 20vmax;
-        margin: auto;
-
-        img {
-            border: 0.25rem dotted black;
-        }
-    }
-
-    a {
-        min-width: 25vmax;
-        margin: 0.5rem;
-    }
-}
-
 #skill-set {
     #contact-button {
         margin: 0.5rem auto;
@@ -104,8 +88,8 @@ a.navbar-item.is-active {
     hr {
         background-color: black;
     }
-    
-    
+
+
         /************* BEGIN PROGRESS BAR *********/
     #progress-div{
         .progress-outer{

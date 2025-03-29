@@ -1,0 +1,20 @@
+- title: "Users Guide"
+  icon: "📘"
+  product: "ProDeploy Client Suite"
+  description: "Enables engineers to verify server deployment details."
+  link_text: "View Document"
+  link_url: "https://acrobat.adobe.com/id/urn:aaid:sc:AP:5b92b6fd-e566-4825-9c06-30a9976f6f7b"
+
+- title: "Setup Guide"
+  icon: "🛠"
+  product: "ProManage"
+  description: "Performance tuning and health monitoring documentation."
+  link_text: "View Document"
+  link_url: "https://acrobat.adobe.com/id/urn:aaid:sc:AP:72329edd-7505-4982-b55d-257be1f2b7ff"
+
+- name: REST API Guide
+  icon: 🌐
+  product: "ProManage"
+  description: "Integrating data center tools with custom applications."
+  link_text: "View Document"
+  link_url: "https://acrobat.adobe.com/id/urn:aaid:sc:AP:fd698298-288e-4125-bd5b-7541f87e8d40"

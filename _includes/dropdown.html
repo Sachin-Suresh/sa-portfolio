@@ -1,19 +1,8 @@
 <div class="navbar-item has-dropdown is-hoverable">
-    <a class="navbar-link">
-        PORTFOLIO
-    </a>
+    <a class="navbar-link">Samples</a>
     <div class="navbar-dropdown has-background-black is-left">
-        {% for sitepage in site.html_pages %}
-        {% unless sitepage.url == '/' or sitepage.url == '/404'  or sitepage.url == '/blog' %}
-        <a href="{{sitepage.url | absolute_url}}"
-            class="navbar-item has-text-grey-light {% if page.url == sitepage.url | absolute_url  %}is-active{% endif %}">
-            {{sitepage.title}}
-        </a>
-        {% endunless %}
-        {% endfor %}
-        <!-- <hr class="navbar-divider">
-    <a class="navbar-item">
-      Report an issue
-    </a> -->
+      <a href="{{ '/documentation/' | relative_url }}" class="navbar-item has-text-grey-light">Documentation</a>
+      <a href="{{ '/full-portfolio/' | relative_url }}" class="navbar-item has-text-grey-light">Screenshots</a>
+      <a href="{{ '/edits/' | relative_url }}" class="navbar-item has-text-grey-light">UI/UX & Tech Edits</a>
     </div>
-</div>
+  </div>
