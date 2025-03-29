@@ -8,7 +8,14 @@ layout: compress
 
 <body>
   {% include navbar.html %}
-  {% include showcase.html %}
+  <!-- {% include showcase.html %} -->
+
+  <!-- Main page content from markdown -->
+  <main class="section">
+    <div class="container">
+      {{ content }}
+    </div>
+  </main>
   {% include about.html %}
   <!--{% include contact.html %}-->
   <!--Footer begins here-->
