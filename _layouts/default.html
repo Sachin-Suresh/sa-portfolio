@@ -4,43 +4,41 @@ layout: compress
 
 <!DOCTYPE html>
 <html>
-{% include head.html %}
+  {% include head.html %}
 
-<body>
-  {% include navbar.html %}
-  <!-- {% include showcase.html %} -->
+  <body class="{% if page.url == '/' %}page-with-anchor-offset{% endif %}">
+    {% include navbar.html %}
 
-  <!-- Main page content from markdown -->
-  <main class="section">
-    <div class="container">
-      {{ content }}
-    </div>
-  </main>
-  <!--{% include contact.html %}-->
-  <!--Footer begins here-->
-  {% include footer.html %}
-</body>
-<script>
-  window.addEventListener("scroll", function (event) {
-    var scroll = this.scrollY;
-    var item = document.getElementsByClassName('navbar-item');
-    /* console.log(scroll); */
-    if (scroll < 565) {
-      item[1].classList.add('is-active');
-      item[2].classList.remove('is-active');
-      item[3].classList.remove('is-active');
-    }
-    if (scroll > 565 && scroll < 1130) {
-      item[1].classList.remove('is-active');
-      item[2].classList.add('is-active');
-      item[3].classList.remove('is-active');
-    }
-    if (scroll > 1130) {
-      item[1].classList.remove('is-active');
-      item[2].classList.remove('is-active');
-      item[3].classList.add('is-active');
-    }
-  });
-</script>
+    <!-- Main content -->
+    <main class="section main-content">
+      <div class="container">
+        {{ content }}
+      </div>
+    </main>
 
+    <!-- Footer -->
+    {% include footer.html %}
+  </body>
+
+  <script>
+    // Optional: Dynamic nav highlight if using scroll behavior
+    window.addEventListener("scroll", function () {
+      const scroll = window.scrollY;
+      const item = document.getElementsByClassName("navbar-item");
+
+      if (scroll < 565) {
+        item[1].classList.add("is-active");
+        item[2].classList.remove("is-active");
+        item[3].classList.remove("is-active");
+      } else if (scroll >= 565 && scroll < 1130) {
+        item[1].classList.remove("is-active");
+        item[2].classList.add("is-active");
+        item[3].classList.remove("is-active");
+      } else if (scroll >= 1130) {
+        item[1].classList.remove("is-active");
+        item[2].classList.remove("is-active");
+        item[3].classList.add("is-active");
+      }
+    });
+  </script>
 </html>

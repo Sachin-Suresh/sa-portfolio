@@ -3,6 +3,7 @@
 
 @import "main.scss";
 
+/* Navbar Styling */
 #navbar {
     opacity: 0.95;
 }
@@ -37,195 +38,28 @@ a.navbar-item.is-active {
     border-color: grey;
 }
 
-
-#hero {
-    background: rgb(0, 0, 0);
-    background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
-    background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
-
-    &::before {
-        filter: blur(0.15rem);
-        background-image: url({{site.heroimage}});
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        top: 0px;
-        right: 0px;
-        bottom: 0px;
-        left: 0px;
-        position: absolute;
-        opacity: 0.25;
-        content: "";
-    }
-}
+/* Title and Subtitle Spacing */
 .title {
-    margin: auto 0.75rem!important;
+    margin: auto 0.75rem !important;
 }
+
 .subtitle {
     letter-spacing: 0.25rem;
 }
 
-#skill-set {
-    #contact-button {
-        margin: 0.5rem auto;
-        display: flex;
-        justify-content: center;
-    }
+.anchor-offset {
+    position: relative;
+  }
 
-    svg {
-        transition: all 0.15s ease-in-out;
-        margin: auto 0.75vmax;
+  .anchor-offset::before {
+    content: "";
+    display: block;
+    height: 70px; /* Adjust based on your navbar height */
+    margin-top: -70px;
+    visibility: hidden;
+  }
 
-        &:hover {
-            transform: scale(1.10);
-            filter: opacity(0.75);
-        }
-    }
-
-    hr {
-        background-color: black;
-    }
-
-
-        /************* BEGIN PROGRESS BAR *********/
-    #progress-div{
-        .progress-outer{
-            background: #fff;
-            border-radius: 50px;
-            padding: 5px;
-            margin: 10px 0;
-            box-shadow: 0 0  10px rgba(209, 219, 231,0.7);
-        }
-        .progress{
-            height: 27px;
-            margin: 0;
-            overflow: visible;
-            border-radius: 50px;
-            background: #eaedf3;
-            box-shadow: inset 0 10px  10px rgba(244, 245, 250,0.9);
-        }
-        .progress .progress-bar{
-            border-radius: 50px;
-        }
-        .progress .progress-value{
-            position: relative;
-            /*left: -45px;*/
-            right: 17em;
-            top: 4px;
-            font-size: 14px;
-            font-weight: bold;
-            color: #fff;
-            letter-spacing: 2px;
-            white-space: pre;
-        }
-        .progress-bar.active{
-            animation: reverse progress-bar-stripes 0.40s linear infinite, animate-positive 2s;
-        }
-        @-webkit-keyframes animate-positive{
-            0% { width: 0%; }
-        }
-        @keyframes animate-positive {
-            0% { width: 0%; }
-        }
-        /************* END PROGRESS BAR *********/
-    }
-}
-
-#blog {
-    .hero-body {
-        padding: 3rem 0.25rem 1rem 0.25rem;
-    }
-
-    .container {
-        margin: 1.5rem auto;
-    }
-
-    #blog-card {
-        transition: all 0.25s ease;
-        margin-bottom: 0.5vmax;
-        transform: scale(0.85);
-        margin-right: 2.5vmax;
-        margin-left: 2.5vmax;
-        line-height: normal;
-        border-radius: 0.25rem;
-        -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-        -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-
-        &:hover {
-            transform: scale(0.875);
-            -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
-            -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
-            box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
-        }
-
-        @media (max-width: 768px) {
-            transform: scale(1);
-            margin-bottom: 5vmax !important;
-
-            &:hover {
-                transform: scale(1.025);
-                margin-bottom: 5vmax !important;
-                -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
-                -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
-                box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
-            }
-
-            .image {
-                padding-top: 50% !important;
-            }
-        }
-
-        .title {
-            margin: 0.5rem !important;
-        }
-
-        .content {
-            margin: 0.5rem;
-        }
-
-        .column {
-            display: grid;
-
-            .image {
-                border-radius: 0.25rem;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
-        }
-    }
-}
-
-#search {
-    border-bottom: 0.15rem solid;
-
-    input {
-        border: none;
-        outline: none;
-        font-weight: 500 !important;
-
-        &::placeholder {
-            font-weight: 500;
-            color: grey;
-            letter-spacing: 0.25rem;
-        }
-    }
-
-    .button {
-        transition: all 0.25s ease;
-        &:focus {
-            outline: 0.25rem solid white;
-        }
-
-        border: none;
-    }
-}
-
-
+/* Footer Styling */
 #footer {
     #backtotop {
         transition: all 0.25s ease;
@@ -266,7 +100,8 @@ a.navbar-item.is-active {
                 justify-content: center;
                 margin: auto;
                 transition: all 0.25s ease;
-                &:hover{
+
+                &:hover {
                     transform: scale(1.15);
                 }
             }
@@ -284,101 +119,3 @@ a.navbar-item.is-active {
         }
     }
 }
-
-#project {
-    .columns {
-        .column {
-            border-radius: 0.5rem;
-            .image {
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
-        }
-    }
-
-    #project-card {
-        -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-        -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-        transform: scale(0.95);
-        transition: all 0.5s ease;
-        margin-bottom: 0.5rem !important;
-        display: inline-table;
-        &:hover {
-            transform: scale(0.975);
-        }
-    }
-    .card {
-        transition: all 0.25s ease;
-        &:hover {
-            background-color: rgba($color: #000000, $alpha: 0.90)!important;
-        }
-    }
-}
-
-#post {
-    @media (min-width: 768px) {
-        margin: auto 2.5vmax;
-    }
-    a {
-        text-decoration: underline;
-    }
-    #title {
-        text-decoration: none;
-    }
-    .title {
-        margin: auto;
-    }
-    #post-image {
-        border-radius: 0.25rem;
-    }
-    .subtitle {
-        letter-spacing: 0.05rem;
-    }
-
-    #description {
-        margin-bottom: 1.25vmax;
-    }
-
-    .tag {
-        margin: 0.15rem auto;
-    }
-    .content {
-        ol, ul, blockquote {
-            display: inline-block;
-        }
-        hr{
-            background-color: grey;
-        }
-        img, iframe {
-            max-width: calc(100% - 25vw);
-            margin: 0.25rem auto;
-            @media (max-width: 768px) {
-                max-width: calc(100% - 5vw);
-            }
-        }
-        ul, ol {
-            display: inline-block;
-        }
-    }
-
-    .container {
-        margin: 2.5rem auto;
-        word-break: break-word;
-        max-width: -webkit-fill-available;
-    }
-
-    #disqus_thread {
-        margin-top: 5vmax;
-    }
-}
-
-#page-section {
-    .content {
-        ul, ol, blockquote {
-            display: inline-block;
-        }
-    }
-}
-

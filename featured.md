@@ -4,7 +4,7 @@ title: Featured Work Samples
 permalink: /featured/
 ---
 
-<section class="section pt-6">
+<section class="section pt-6" id="featured" class="anchor-offset">
   <div class="container has-text-centered">
     <h1 class="title is-3 has-text-weight-bold mb-2">✍️ Featured Work Samples</h1>
     <hr class="my-4">
