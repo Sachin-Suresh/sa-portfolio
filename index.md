@@ -13,7 +13,7 @@ title: "Sachin S | Technical Writing Portfolio"
     </p>
 
     <div class="buttons mb-5">
-      <a href="assets/docs/SachinS_Resume.pdf" class="button is-link is-light" target="_blank">📄 View My Resume</a>
+      <!-- <a href="assets/docs/SachinS_Resume.pdf" class="button is-link is-light" target="_blank">📄 View My Resume</a> -->
       <a href="https://www.linkedin.com/in/sachin-mca/" class="button is-dark is-light" target="_blank">🔗 Connect on LinkedIn</a>
     </div>
 

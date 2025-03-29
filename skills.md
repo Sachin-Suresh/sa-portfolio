@@ -45,24 +45,48 @@ permalink: /skills/
         <div class="box">
           <h2 class="title is-5 mb-3">🧰 Tools</h2>
           <div class="tags are-medium">
-            <span class="tag is-warning is-light">🗎 MS Office</span>
-            <span class="tag is-warning is-light">📘 Confluence</span>
-            <span class="tag is-warning is-light">✏️ XMetaL</span>
-            <span class="tag is-warning is-light">📤 SDL Tridion</span>
-            <span class="tag is-warning is-light">🐙 Git</span>
-            <span class="tag is-warning is-light">🧪 Postman</span>
+            <span class="tag is-warning is-light">
+            <iconify-icon icon="logos:microsoft-office"></iconify-icon> MS Office
+            </span>
+            <span class="tag is-warning is-light">
+            <iconify-icon icon="logos:confluence"></iconify-icon> Confluence
+            </span>
+            <span class="tag is-warning is-light">
+            <iconify-icon icon="simple-icons:xmetal"></iconify-icon> XMetaL
+            </span>
+            <span class="tag is-warning is-light">
+            <iconify-icon icon="logos:sdl"></iconify-icon> SDL Tridion
+            </span>
+            <span class="tag is-warning is-light">
+            <iconify-icon icon="logos:git-icon"></iconify-icon> Git
+            </span>
+            <span class="tag is-warning is-light">
+            <iconify-icon icon="logos:postman-icon"></iconify-icon> Postman
+            </span>
           </div>
 
           <hr class="my-4">
 
           <h2 class="title is-5 mb-3">💻 Programming Skills</h2>
           <div class="tags are-medium">
-            <span class="tag is-dark is-light">🐘 PHP</span>
-            <span class="tag is-dark is-light">🐍 Python</span>
-            <span class="tag is-dark is-light">☕ Java</span>
-            <span class="tag is-dark is-light">🧠 JavaScript</span>
-            <span class="tag is-dark is-light">🌐 HTML</span>
-            <span class="tag is-dark is-light">🎨 CSS</span>
+            <span class="tag is-dark is-light">
+            <iconify-icon icon="logos:php"></iconify-icon> PHP
+            </span>
+            <span class="tag is-dark is-light">
+            <iconify-icon icon="logos:python"></iconify-icon> Python
+            </span>
+            <span class="tag is-dark is-light">
+            <iconify-icon icon="logos:java"></iconify-icon> Java
+            </span>
+            <span class="tag is-dark is-light">
+            <iconify-icon icon="logos:javascript"></iconify-icon> JavaScript
+            </span>
+            <span class="tag is-dark is-light">
+            <iconify-icon icon="logos:html-5"></iconify-icon> HTML
+            </span>
+            <span class="tag is-dark is-light">
+            <iconify-icon icon="logos:css-3"></iconify-icon> CSS
+            </span>
           </div>
         </div>
       </div>
