@@ -31,7 +31,7 @@ permalink: /edits/
             <!-- 🖼 Screenshot Image -->
             <div class="column is-half has-text-centered">
             <figure class="image" style="max-width: 350px; margin: 0 auto;">
-                <img src="/assets/images/2page_view.png" alt="Two-page view screenshot" title="Go to View > Page Display > Two-Page View" style="max-width: 300px; height: auto; border-radius: 8px; border: 1px solid #ccc;" />
+                <img src="{{ site.baseurl }}/assets/images/2page_view.png" alt="Two-page view screenshot" title="Go to View > Page Display > Two-Page View" style="max-width: 300px; height: auto; border-radius: 8px; border: 1px solid #ccc;" />
             </figure>
             </div>
 

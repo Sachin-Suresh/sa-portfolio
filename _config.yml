@@ -7,13 +7,14 @@ url: ''
 baseurl: 
 
 # Title of the Site
-title: Sachin S
+title: Sachin Suresh | Portfolio
 # Description of the Site
-description: Technical Writing & Editing | Professional Writing | Proofreading Service
+description: "Explore UX writing, documentation, and technical writing samples by Sachin Suresh."
 # URL of Image of the Site
-site-image: /WhatATheme/assets/images/meta.jpg
+site-image: https://sachin-suresh.github.io/sa-portfolio/assets/images/og-image.jpg
+
 # Keywords of the Site
-site-keywords: Site, Template, Theme
+site-keywords: technical writing, technical editing, UX writing, API documentation, documentation samples, Sachin Suresh
 # URL for the Image of custom Favicon
 favicon-url: 
 
@@ -23,33 +24,33 @@ heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
 email: sach7411@gmail.com
-facebook_username: thedevslot
-twitter_username: thedevslot
-instagram_username: thedevslot
+facebook_username:
+twitter_username:
+instagram_username:
 linkedin_username: sachin-mca
-github_username:  thedevslot
-youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
+github_username:
+youtube_channel_id:
 reddit_username: /
 behance_username: /
 dribbble_username: /
 spotify_username: /
 
 # Google Analytics
-google-analytics: UA-163806439-1
+google-analytics:
 
 # Disqus
-disqus-shortname: thedevslot
+disqus-shortname:
 
 # Name of the Author
-author-name: Sachin S
+author-name: "Sachin Suresh"
 # URL for the Image of the Author
-author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
+author-image:
 
 # 60 Words About the Author
 author-about: # Updated in about.html
 
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://github.com/thedevslot
+author-url: https://github.com/Sachin-Suresh
 
 # SASS
 sass:
