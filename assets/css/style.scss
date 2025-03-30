@@ -1,121 +1,146 @@
 ---
 ---
-
 @import "main.scss";
 
-/* Navbar Styling */
+/* ─────────────────────────────────────────────
+   Navbar Styling
+───────────────────────────────────────────── */
+
 #navbar {
-    opacity: 0.95;
+  opacity: 0.95;
 }
 
 .is-active {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .navbar-dropdown {
-    border: none;
-    right: 0;
-    left: auto;
+  border: none;
+  right: 0;
+  left: auto;
 }
 
 a.navbar-item:hover,
 .navbar-link:hover {
-    background-color: rgba($color: #fff, $alpha: 0.25) !important;
-    color: white !important;
+  background-color: rgba($color: #fff, $alpha: 0.25) !important;
+  color: white !important;
 }
 
 a.navbar-item.is-active {
-    background-color: rgba($color: #fff, $alpha: 0.25) !important;
-    color: white !important;
+  background-color: rgba($color: #fff, $alpha: 0.25) !important;
+  color: white !important;
 
-    &:hover {
-        background-color: rgba($color: #fff, $alpha: 0.25) !important;
-        color: grey;
-    }
+  &:hover {
+    background-color: rgba($color: #fff, $alpha: 0.25) !important;
+    color: grey;
+  }
 }
 
 .navbar-link:not(.is-arrowless)::after {
-    border-color: grey;
+  border-color: grey;
 }
 
-/* Title and Subtitle Spacing */
+
+/* ─────────────────────────────────────────────
+   Typography & Headings
+───────────────────────────────────────────── */
+
 .title {
-    margin: auto 0.75rem !important;
+  margin: auto 0.75rem !important;
 }
 
 .subtitle {
-    letter-spacing: 0.25rem;
+  letter-spacing: 0.25rem;
 }
 
+
+/* ─────────────────────────────────────────────
+   Anchor Offset (for smooth scroll targets)
+───────────────────────────────────────────── */
+
 .anchor-offset {
-    position: relative;
-  }
+  position: relative;
+}
 
-  .anchor-offset::before {
-    content: "";
-    display: block;
-    height: 70px; /* Adjust based on your navbar height */
-    margin-top: -70px;
-    visibility: hidden;
-  }
+.anchor-offset::before {
+  content: "";
+  display: block;
+  height: 70px; /* Adjust based on your fixed navbar height */
+  margin-top: -70px;
+  visibility: hidden;
+}
 
-/* Footer Styling */
+
+/* ─────────────────────────────────────────────
+   Custom Step List Styling (Instructions)
+───────────────────────────────────────────── */
+
+.custom-steps {
+  list-style: decimal;
+  padding-left: 1.25rem;
+}
+
+
+/* ─────────────────────────────────────────────
+   Footer Styling
+───────────────────────────────────────────── */
+
 #footer {
-    #backtotop {
-        transition: all 0.25s ease;
-        width: 10rem;
-        padding: 0.25rem;
-        margin: auto auto 1rem auto;
+  #backtotop {
+    transition: all 0.25s ease;
+    width: 10rem;
+    padding: 0.25rem;
+    margin: auto auto 1rem auto;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  .container {
+    margin: auto;
+    padding: 1.5rem;
+    line-height: 1.25;
+
+    .column {
+      display: grid;
+      justify-content: center;
+
+      li {
+        list-style: circle;
+        list-style-position: outside;
+      }
+
+      a {
+        color: #7a7a7a;
 
         &:hover {
-            transform: scale(1.05);
+          color: white;
         }
-    }
+      }
 
-    .container {
+      figure {
+        border: 1.5px solid white;
+        border-radius: 50rem;
+        justify-content: center;
         margin: auto;
-        padding: 1.5rem;
-        line-height: 1.25;
+        transition: all 0.25s ease;
 
-        .column {
-            display: grid;
-            justify-content: center;
-
-            li {
-                list-style: circle;
-                list-style-position: outside;
-            }
-
-            a {
-                color: #7a7a7a;
-
-                &:hover {
-                    color: white;
-                }
-            }
-
-            figure {
-                border: 1.5px solid white;
-                border-radius: 50rem;
-                justify-content: center;
-                margin: auto;
-                transition: all 0.25s ease;
-
-                &:hover {
-                    transform: scale(1.15);
-                }
-            }
+        &:hover {
+          transform: scale(1.15);
         }
+      }
     }
+  }
 
-    #credits {
-        padding: 0.75rem;
-        font-size: 0.85rem;
+  #credits {
+    padding: 0.75rem;
+    font-size: 0.85rem;
 
-        a {
-            text-decoration: underline;
-            font-weight: bolder;
-            color: white;
-        }
+    a {
+      text-decoration: underline;
+      font-weight: bolder;
+      color: white;
     }
+  }
 }

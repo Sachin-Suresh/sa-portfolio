@@ -1,11 +1,32 @@
-- icon: "✏️"
-  title: "Technical Copyedit - Robotics Spec"
-  description: "Edited end-to-end navigation flow and safety terms."
-  link_text: "View Sample"
-  link_url: "https://example.com/edit-sample1"
+# - icon: "✏️"
+#   title: "Technical Copyedit - Robotics Spec"
+#   description: "Edited end-to-end navigation flow and safety terms."
+#   link_text: "View Sample"
+#   link_url: "https://example.com/edit-sample1"
+
+# - icon: "🛠"
+#   title: "UI Text Improvements"
+#   description: "Simplified technical UI copy for better user comprehension."
+#   link_text: "View Sample"
+#   link_url: "https://example.com/edit-sample2"
 
 - icon: "🛠"
-  title: "UI Text Improvements"
-  description: "Simplified technical UI copy for better user comprehension."
+  title: "How to Filter Data Using AWK RegEx"
+  description: "Matched and highlighted relevant lines using regex filters in AWK."
   link_text: "View Sample"
-  link_url: "https://example.com/edit-sample2"
+  link_url: "https://acrobat.adobe.com/id/urn:aaid:sc:AP:96a7945f-0765-4793-a6e8-2e6751da0fe2"
+
+- icon: "🌐"
+  title: "An Introduction to the Jamstack"
+  description: "Simplified complex terms, improved structure, and enhanced developer clarity."
+  link_text: "View Sample"
+  link_url: "https://acrobat.adobe.com/id/urn:aaid:sc:AP:8968c409-da52-4c95-9a19-3df292050c6e"
+
+- icon: "🐘"
+  title: "How to Install Mastodon on Debian 10"
+  description: "Refined installation steps, clarified prerequisites, and improved technical tone."
+  link_text: "View Sample"
+  link_url: "https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:48aa09f3-ed0a-471b-a762-864724ec4bd5"
+
+
+
