@@ -2,9 +2,9 @@
 markdown: kramdown
 
 # URL of the Site
-url: ''
+url: "https://sachin-suresh.github.io"
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: 
+baseurl: "/sa-portfolio"
 
 # Title of the Site
 title: Sachin Suresh | Portfolio
