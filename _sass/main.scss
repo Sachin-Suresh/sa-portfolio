@@ -183,3 +183,63 @@ a.navbar-item.is-active:hover {
     }
   }
 }
+
+/* ─────────────────────────────────────────────
+   Mobile: Center Align Hero Text
+───────────────────────────────────────────── */
+@media screen and (max-width: 768px) {
+    .hero .title,
+    .hero .subtitle,
+    .hero p {
+      text-align: center;
+    }
+  }
+
+/* ─────────────────────────────────────────────
+   Mobile Menu: Lighter Text on Dark Background
+───────────────────────────────────────────── */
+.navbar-menu.is-active {
+    background-color: #111; // Ensures dark background
+  }
+
+  .navbar-menu.is-active a.navbar-item,
+  .navbar-menu.is-active .navbar-link {
+    color: white !important;
+    font-weight: 600;
+  }
+
+/* ─────────────────────────────────────────────
+   Prevent Heading Text Breaks
+───────────────────────────────────────────── */
+.title,
+.hero .title {
+  word-break: keep-all;
+  hyphens: none;
+}
+
+/* ─────────────────────────────────────────────
+   Mobile Fixes for Home Intro Section
+───────────────────────────────────────────── */
+@media screen and (max-width: 768px) {
+    section.section > .container {
+      text-align: center;
+      padding: 0 1.25rem;
+    }
+
+    section.section > .container > p {
+      text-align: justify;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+
+    section.section > .container > h1.title {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+
+    .buttons {
+      justify-content: center;
+    }
+  }
