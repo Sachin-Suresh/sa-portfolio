@@ -86,6 +86,10 @@ defaults:
     values:
       layout: page
 
+# Include standalone verification or special files
+include:
+  - googlec53646d4e8e1c312.html
+
 # Exclude
 exclude:
   - .sass-cache/
