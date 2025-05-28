@@ -1,0 +1,25 @@
+{% if site.under_maintenance %}
+<style>
+  body {
+    overflow: hidden;
+  }
+  #maintenance-overlay {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: sans-serif;
+  }
+</style>
+
+<div id="maintenance-overlay">
+  <h1 style="font-size: 2.5rem;">🚧 Under Maintenance</h1>
+  <p style="font-size: 1.2rem; max-width: 480px;">I'm currently updating the portfolio. Please check back shortly. Thanks for your patience!</p>
+</div>
+{% endif %}

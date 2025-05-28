@@ -102,3 +102,5 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+under_maintenance: true
