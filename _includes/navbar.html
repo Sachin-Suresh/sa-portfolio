@@ -1,64 +1,60 @@
 <nav class="navbar is-black is-fixed-top" role="navigation" aria-label="main navigation" id="navbar">
-    <div class="container">
+  <div class="container">
 
-      <!-- Branding / Logo -->
-      <div class="navbar-brand">
-        <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/">
-          <strong>{{site.title}}</strong>
-        </a>
-        <div class="navbar-burger" data-target="navbar-menu">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+    <!-- Branding / Logo -->
+    <div class="navbar-brand">
+      <a class="navbar-item" href="{{ site.baseurl }}/">
+        <strong>{{ site.title }}</strong>
+      </a>
+      <div class="navbar-burger" data-target="navbar-menu">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
-
-      <!-- Navbar Links -->
-      <div class="navbar-menu has-background-black" id="navbar-menu">
-        <div class="navbar-end">
-          <a class="navbar-item {% if page.url == '/' %}is-active{% endif %}" href="{{site.url}}{{site.baseurl}}/">Home</a>
-          <!-- <a class="navbar-item {% if page.url == '/skills/' %}is-active{% endif %}" href="{{site.url}}{{site.baseurl}}/skills/">Skills</a> -->
-
-
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link">Portfolio</a>
-            <div class="navbar-dropdown">
-                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/portfolio/user-guides/">User Guides</a>
-                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/portfolio/api-docs/">API Docs</a>
-                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/portfolio/ux-edits/">UX Copy & Edits</a>
-                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/portfolio/compliance/">Compliance Docs</a>
-            </div>
-          </div>
-
-          <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/case-studies/">Case Studies</a>
-          <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/contact/">Contact</a>
-
-        </div>
-      </div>
-
     </div>
-  </nav>
 
-  <style>
-    .navbar-dropdown a.navbar-item:hover {
-      background-color: #f5f5f5 !important;
-      color: #000 !important;
-    }
-  </style>
+    <!-- Navbar Links -->
+    <div class="navbar-menu has-background-black" id="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item {% if page.url == '/' %}is-active{% endif %}" href="{{ site.baseurl }}/">Home</a>
 
-  <!-- Bulma Navbar Toggle Script -->
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-      if ($navbarBurgers.length > 0) {
-        $navbarBurgers.forEach(function ($el) {
-          $el.addEventListener('click', function () {
-            var target = $el.dataset.target;
-            var $target = document.getElementById(target);
-            $el.classList.toggle('is-active');
-            $target.classList.toggle('is-active');
-          });
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">Portfolio</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="{{ site.baseurl }}/portfolio/user-guides/">User Guides</a>
+            <a class="navbar-item" href="{{ site.baseurl }}/portfolio/api-docs/">API Docs</a>
+            <a class="navbar-item" href="{{ site.baseurl }}/portfolio/ux-edits/">UX Copy & Edits</a>
+            <a class="navbar-item" href="{{ site.baseurl }}/portfolio/compliance/">Compliance Docs</a>
+          </div>
+        </div>
+
+        <a class="navbar-item" href="{{ site.baseurl }}/case-studies/">Case Studies</a>
+        <a class="navbar-item" href="{{ site.baseurl }}/contact/">Contact</a>
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+<style>
+  .navbar-dropdown a.navbar-item:hover {
+    background-color: #f5f5f5 !important;
+    color: #000 !important;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+    if ($navbarBurgers.length > 0) {
+      $navbarBurgers.forEach(function ($el) {
+        $el.addEventListener('click', function () {
+          var target = $el.dataset.target;
+          var $target = document.getElementById(target);
+          $el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
         });
-      }
-    });
-  </script>
+      });
+    }
+  });
+</script>
