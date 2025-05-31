@@ -103,4 +103,4 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
-under_maintenance: true
+under_maintenance: false
