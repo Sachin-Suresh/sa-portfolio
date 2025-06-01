@@ -12,10 +12,10 @@ title: "Sachin Suresh | Portfolio"
     </p>
 
     <!-- Flex Grid Layout -->
-    <div style="display: flex; align-items: flex-start; gap: 2rem;">
+    <div class="home-flex-columns">
 
       <!-- Skills Column -->
-      <div style="flex: 0 0 45%; position: sticky; top: 100px; align-self: flex-start;">
+      <div class="skills-column">
         <h2 class="title is-4 mb-4">💼 Skills</h2><br/>
         <div class="box">
           <h3 class="has-text-weight-bold mb-2">⚒️ Core Skills</h3>

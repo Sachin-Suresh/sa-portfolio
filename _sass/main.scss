@@ -243,3 +243,105 @@ a.navbar-item.is-active:hover {
       justify-content: center;
     }
   }
+
+  /* ─────────────────────────────────────────────
+   Mobile Fix for Case Study Tabs (Stacked Style)
+───────────────────────────────────────────── */
+@media screen and (max-width: 768px) {
+  .tabs.is-toggle {
+    overflow-x: auto;
+    white-space: nowrap;
+    display: block;
+  }
+
+  .tabs.is-toggle ul {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+    padding: 0;
+  }
+
+  .tabs.is-toggle ul li {
+    flex: 1;
+    width: 100%;
+  }
+
+  .tabs.is-toggle ul li a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 0.95rem;
+    padding: 0.5rem 1rem;
+    white-space: normal; /* Allow wrapping */
+  }
+}
+
+/* ─────────────────────────────────────────────
+   Mobile: Stack Case Study Columns Vertically
+───────────────────────────────────────────── */
+@media screen and (max-width: 768px) {
+  .case-tab .columns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .case-tab .column {
+    width: 100% !important;
+    max-width: 90%;
+    text-align: center;
+  }
+
+  .case-tab .column figure img {
+    margin: 0 auto;
+    max-height: 160px;
+    width: auto;
+  }
+
+  .case-tab p {
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  .case-tab h2.title {
+    font-size: 1.25rem;
+  }
+}
+
+/* ─────────────────────────────────────────────
+   Home Page Responsive Columns
+───────────────────────────────────────────── */
+.home-flex-columns {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.home-flex-columns > div {
+  flex: 1 1 0;
+}
+
+.home-flex-columns > div:first-child {
+  position: relative !important;  /* override sticky on mobile */
+  top: auto;
+}
+
+.skills-column {
+  flex: 0 0 45%;
+  position: sticky;
+  top: 100px;
+  align-self: flex-start;
+
+  @media screen and (max-width: 768px) {
+    position: static;
+    top: auto;
+    align-self: auto;
+  }
+}
+
