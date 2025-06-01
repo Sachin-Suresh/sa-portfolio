@@ -8,7 +8,7 @@ title: "Sachin Suresh | Portfolio"
     <!-- Intro -->
     <h1 class="title is-3 mb-4">👋 Hi, I'm Sachin Suresh</h1><br/>
     <p class="mb-5">
-      I’m a Lead Technical Writer with 9+ years of experience in developer documentation, secure cloud platforms, and AI-powered robotics. I create developer-friendly, audit-ready, and user-focused content for enterprise teams.
+      I’m a <strong>Lead Technical Writer</strong> with 9+ years of experience in developer documentation, secure cloud platforms, and AI-powered robotics. I create developer-friendly, audit-ready, and user-focused content for enterprise teams.
     </p>
 
     <!-- Flex Grid Layout -->
