@@ -101,6 +101,48 @@ a.navbar-item.is-active:hover {
 }
 
 /* ─────────────────────────────────────────────
+   Fix Navbar Burger Alignment on Mobile
+───────────────────────────────────────────── */
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-right: 1rem;
+  }
+
+  .navbar-burger {
+    margin-left: auto;
+    margin-right: 0.5rem;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar-burger span {
+    background-color: white;
+  }
+
+  .navbar-menu {
+    background-color: #111;
+    padding: 1rem 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand strong {
+    font-size: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 80%;
+  }
+}
+
+/* ─────────────────────────────────────────────
    Typography
 ───────────────────────────────────────────── */
 .title {

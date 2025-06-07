@@ -6,6 +6,9 @@ url: "https://sachin-suresh.github.io"
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
 baseurl: "/sa-portfolio"
 
+# Google analytics
+google_analytics: G-2L8GP50MES
+
 # Title of the Site
 title: Tech Writer | Writing for Product Success
 # Description of the Site
