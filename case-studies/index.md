@@ -43,10 +43,9 @@ title: "Case Studies"
             <figure class="image is-flex is-justify-content-center mb-3">
                 <img src="{{ site.baseurl }}/assets/images/case-context-textheavy.png" alt="Text-Heavy Docs" style="height: 180px; object-fit: contain;">
             </figure>
-            <p>
-                Teams in Japan struggled to understand <strong>text-heavy English</strong> documentation, causing frequent clarification requests
-                and delays. Documentation was <strong>hard to scan</strong> and even harder to contribute to.
-            </p>
+                <p>
+                    Teams across global regions struggled to understand <strong>text-heavy English</strong> documentation, leading to <strong>frequent clarification requests and delays</strong>.
+                </p>
             </div>
 
             <div class="column has-text-centered">

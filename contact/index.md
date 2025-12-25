@@ -15,7 +15,7 @@ title: "Contact"
       <ul style="list-style: none; padding-left: 0;">
         <li style="margin-bottom: 0.5rem;">
           <img src="../assets/icons/email.svg" alt="Email icon" style="width: 18px; margin-right: 8px; vertical-align: middle;">
-          <strong>Email:</strong> <a href="mailto:sach7411@gmail.com">sach7411@gmail.com</a>
+          <strong>Email:</strong> <a href="mailto:sach7411.uae@gmail.com">sach7411.uae@gmail.com</a>
         </li>
         <li style="margin-bottom: 0.5rem;">
           <img src="../assets/icons/linkedin.svg" alt="LinkedIn icon" style="width: 18px; margin-right: 8px; vertical-align: middle;">
