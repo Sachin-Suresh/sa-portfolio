@@ -13,7 +13,7 @@ title: "Sachin Suresh | Portfolio"
 
     <!-- My Resume / LinkedIn -->
     <div class="buttons mt-4">
-        <a href="{{ '/assets/resume/Sachin_Suresh_Resume.pdf' | relative_url }}"
+        <a href="{{ '/assets/resume/1_Sachin_Suresh_Lead_UX_TW.pdf' | relative_url }}"
             target="_blank"
             class="button is-link">
             Resume
@@ -34,40 +34,35 @@ title: "Sachin Suresh | Portfolio"
       <div class="skills-column">
         <h2 class="title is-4 mb-4">💼 Skills</h2><br/>
         <div class="box">
-          <h3 class="has-text-weight-bold mb-2">⚒️ Core Skills</h3>
+          <h3 class="has-text-weight-bold mb-2">⚒️ Strategic Focus Areas</h3>
           <div class="tags are-small">
-            <span class="tag is-link is-light">✍️ Technical Writing</span>
-            <span class="tag is-link is-light">📘 Product Docs</span>
-            <span class="tag is-link is-light">✏️ UX Writing</span>
-            <span class="tag is-link is-light">🎨 Content Design</span>
+            <span class="tag is-link is-light">🏛 Documentation Governance</span>
+            <span class="tag is-link is-light">🔁 Product Docs</span>
+            <span class="tag is-link is-light">🗺 Enterprise Documentation Strategy</span>
+            <span class="tag is-link is-light">🧩 UX & Content Architecture UX & Content Architecture</span>
           </div>
           <hr>
-          <h3 class="has-text-weight-bold mb-2">📄 Document Types</h3>
+          <h3 class="has-text-weight-bold mb-2">📄 Documentation Domains</h3>
           <div class="tags are-small">
-            <span class="tag is-info is-light">📕 User Guides</span>
-            <span class="tag is-info is-light">💻 API Docs</span>
-            <span class="tag is-info is-light">⚠️ Error Messages</span>
-            <span class="tag is-info is-light">👷 Dev Docs</span>
+            <span class="tag is-info is-light">📕 End-User Documentation</span>
+            <span class="tag is-info is-light">💻 API & Developer Documentation</span>
+            <span class="tag is-info is-light">⚠️ UX Messaging & System Feedback</span>
+            <span class="tag is-info is-light">👷 Developer Documentation</span>
           </div>
           <hr>
-          <h3 class="has-text-weight-bold mb-2">🧰 Tools</h3>
+          <h3 class="has-text-weight-bold mb-2">🧰 Operating Environment & Tooling</h3>
           <div class="tags are-small">
-            <span class="tag is-warning is-light">MS Office</span>
-            <span class="tag is-warning is-light">Confluence</span>
-            <span class="tag is-warning is-light">XMetaL</span>
-            <span class="tag is-warning is-light">SDL Tridion</span>
-            <span class="tag is-warning is-light">🔧 Git</span>
-            <span class="tag is-warning is-light">🧪 Postman</span>
+            <span class="tag is-warning is-light">📝 Authoring & Publishing: XMetal, SDL Tridion, Confluence</span>
+            <span class="tag is-warning is-light">🔀 Version Control & Workflow: Git, Kanban Systems</span>
+            <span class="tag is-warning is-light">🔍 API & Testing: Postman</span>
+            <span class="tag is-warning is-light">🏢 Enterprise Platforms: MS Office Ecosystem</span>
           </div>
           <hr>
-          <h3 class="has-text-weight-bold mb-2">💻 Programming Skills</h3>
+          <h3 class="has-text-weight-bold mb-2">💻 Technical Foundation</h3>
           <div class="tags are-small">
-            <span class="tag is-dark">PHP</span>
-            <span class="tag is-dark">Python</span>
-            <span class="tag is-dark">Java</span>
-            <span class="tag is-dark">JavaScript</span>
-            <span class="tag is-dark">HTML</span>
-            <span class="tag is-dark">CSS</span>
+            <span class="tag is-dark">Basic scripting (Python)</span>
+            <span class="tag is-dark">HTML/CSS</span>
+            <span class="tag is-dark">REST APIs</span>
           </div>
         </div>
       </div>
@@ -76,7 +71,7 @@ title: "Sachin Suresh | Portfolio"
       <div style="flex: 1 1 0; min-width: 0;">
             <h2 class="title is-4 mb-4">✍️ Featured Work Samples</h2><br/>
             <p class="has-text-grey mb-4">
-                A curated selection highlighting execution depth, UX clarity, and documentation impact.
+                Selected initiatives demonstrating documentation governance, lifecycle alignment, and measurable impact across enterprise environments.
             </p>
             <p class="has-text-grey mb-4" style="font-size: 0.95rem;">
             Click (<strong>▶</strong>) from each section to expand and preview the full file.
@@ -86,7 +81,7 @@ title: "Sachin Suresh | Portfolio"
             <div class="mb-5">
                 <details>
                     <summary>
-                    <strong>📘 User Guide</strong> – ProDeploy Client Suite
+                    <strong>📘 User Guide & Operational Documentation</strong> – ProDeploy Client Suite
                     <br>
                     <small><em>[Enabled engineers to reduce post-deployment issues]</em></small>
                     </summary>
@@ -178,7 +173,7 @@ title: "Sachin Suresh | Portfolio"
 
             <div class="box">
                 <div class="content">
-                    <p><strong>My approach focuses on clarity, collaboration, and scale.</strong></p>
+                    <p>My approach combines system understanding, structured governance, and scalable documentation models.</p>
 
                     <ul>
                     <li>
