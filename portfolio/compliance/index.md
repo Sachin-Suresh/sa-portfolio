@@ -3,7 +3,7 @@ layout: default
 title: "Documentation Controls, Traceability & Release Readiness"
 ---
 
-<section class="section controls-page">
+<section class="section controls-page portfolio-page">
 
   <div class="container controls-shell">
 

@@ -1,0 +1,726 @@
+/* ============================================================
+   SACHIN SURESH PORTFOLIO
+   Global Typography & UI Scale
+
+   Purpose:
+   - Consistent readable typography across all portfolio pages
+   - Small text only for metadata / labels
+   - Comfortable recruiter-friendly scanning
+   - Does NOT affect the global navbar
+   ============================================================ */
+
+
+/* ============================================================
+   DESIGN TOKENS
+   ============================================================ */
+
+.portfolio-page {
+
+  /* Primary text sizes */
+  --text-body: 0.96rem;
+  --text-lead: 1rem;
+  --text-support: 0.84rem;
+  --text-small: 0.78rem;
+  --text-label: 0.70rem;
+
+  /* Heading sizes */
+  --heading-xl: 2.25rem;
+  --heading-lg: 1.75rem;
+  --heading-md: 1.30rem;
+  --heading-sm: 1.05rem;
+
+  /* Line heights */
+  --line-body: 1.62;
+  --line-support: 1.50;
+  --line-heading: 1.25;
+
+  /* Text colours */
+  --text-primary: #3f3f3f;
+  --text-secondary: #666666;
+  --text-muted: #777777;
+  --text-light: #888888;
+
+  /* Brand */
+  --portfolio-blue: #3273dc;
+  --portfolio-green: #4f8c60;
+
+}
+
+
+
+/* ============================================================
+   MAIN HEADINGS
+   ============================================================ */
+
+/*
+   Main page title.
+   Covers:
+   - About hero
+   - Governance page
+   - Case Studies
+   - Controls page
+*/
+
+.portfolio-page .title.is-2 {
+  font-size: clamp(2rem, 3vw, var(--heading-xl));
+  line-height: 1.15;
+}
+
+
+.portfolio-page .title.is-3 {
+  font-size: clamp(1.75rem, 2.6vw, 2rem);
+  line-height: var(--line-heading);
+}
+
+
+/*
+   Major section headings
+*/
+
+.portfolio-page .title.is-4 {
+  font-size: var(--heading-md);
+  line-height: 1.30;
+}
+
+
+/*
+   Secondary section headings
+*/
+
+.portfolio-page .title.is-5 {
+  font-size: var(--heading-sm);
+  line-height: 1.32;
+}
+
+
+/*
+   Small component headings
+*/
+
+.portfolio-page .title.is-6 {
+  font-size: 0.95rem;
+  line-height: 1.35;
+}
+
+
+
+/* ============================================================
+   HERO / INTRODUCTION
+   ============================================================ */
+
+.portfolio-page .hero-lead {
+  font-size: var(--text-lead);
+  line-height: var(--line-body);
+  color: var(--text-primary);
+}
+
+
+.portfolio-page .hero-copy {
+  font-size: var(--text-body);
+  line-height: var(--line-body);
+  color: var(--text-secondary);
+}
+
+
+.portfolio-page .section-intro,
+.portfolio-page .panel-intro,
+.portfolio-page .explore-copy,
+.portfolio-page .case-summary {
+  font-size: 0.90rem;
+  line-height: 1.58;
+  color: var(--text-secondary);
+}
+
+
+
+/* ============================================================
+   EYEBROWS / SMALL UPPERCASE LABELS
+   ============================================================ */
+
+/*
+   These are intentionally the smallest text on the site.
+   Only use for labels such as:
+   ABOUT
+   SELECTED WORK
+   CAREER EVOLUTION
+   GOVERNANCE FRAMEWORK
+*/
+
+.portfolio-page .eyebrow,
+.portfolio-page .section-label,
+.portfolio-page .section-kicker,
+.portfolio-page .panel-kicker,
+.portfolio-page .card-kicker,
+.portfolio-page .blueprint-label,
+.portfolio-page .bridge-label,
+.portfolio-page .story-label,
+.portfolio-page .strip-label,
+.portfolio-page .navigator-eyebrow {
+
+  font-size: var(--text-label);
+
+  font-weight: 700;
+
+  letter-spacing: 0.09em;
+
+  line-height: 1.35;
+
+  text-transform: uppercase;
+
+}
+
+
+
+/* ============================================================
+   NORMAL CONTENT
+   ============================================================ */
+
+/*
+   Avoid globally changing every <p>.
+   Component-specific selectors prevent labels / cards from
+   accidentally inheriting oversized body copy.
+*/
+
+.portfolio-page .content > p,
+.portfolio-page .content > ul,
+.portfolio-page .content > ol {
+
+  font-size: var(--text-body);
+
+  line-height: var(--line-body);
+
+}
+
+
+
+/* ============================================================
+   SUPPORTING TEXT / CARD COPY
+   ============================================================ */
+
+.portfolio-page .story-item p,
+.portfolio-page .evidence-list,
+.portfolio-page .evidence-row p,
+.portfolio-page .capability-item > p,
+.portfolio-page .item-outcome,
+.portfolio-page .principle p,
+.portfolio-page .question-item p,
+.portfolio-page .quick-value-grid p,
+.portfolio-page .case-notes p,
+.portfolio-page .ai-foundation-grid p {
+
+  font-size: var(--text-support);
+
+  line-height: var(--line-support);
+
+  color: var(--text-secondary);
+
+}
+
+
+
+/* ============================================================
+   CARD / COMPONENT TITLES
+   ============================================================ */
+
+.portfolio-page .story-item strong,
+.portfolio-page .capability-item .item-title,
+.portfolio-page .principle strong,
+.portfolio-page .strength-item strong,
+.portfolio-page .question-item strong,
+.portfolio-page .evidence-card .title,
+.portfolio-page .summary-item strong {
+
+  font-size: 0.90rem;
+
+  line-height: 1.35;
+
+}
+
+
+
+/* ============================================================
+   ABOUT PAGE — GOVERNANCE BLUEPRINT
+   ============================================================ */
+
+.portfolio-page .blueprint-input span,
+.portfolio-page .blueprint-output span {
+
+  font-size: var(--text-label);
+
+  line-height: 1.35;
+
+}
+
+
+.portfolio-page .blueprint-input p,
+.portfolio-page .blueprint-output p {
+
+  font-size: var(--text-support);
+
+  line-height: 1.45;
+
+}
+
+
+.portfolio-page .blueprint-step span {
+
+  font-size: 0.68rem;
+
+}
+
+
+.portfolio-page .blueprint-step strong {
+
+  font-size: 0.84rem;
+
+  line-height: 1.30;
+
+}
+
+
+.portfolio-page .blueprint-step small {
+
+  font-size: 0.74rem;
+
+  line-height: 1.42;
+
+  color: var(--text-secondary);
+
+}
+
+
+
+/* ============================================================
+   ABOUT PAGE — CAREER EVOLUTION
+   ============================================================ */
+
+.portfolio-page .career-point strong {
+
+  font-size: 0.92rem;
+
+  line-height: 1.35;
+
+}
+
+
+.portfolio-page .career-point small {
+
+  font-size: 0.82rem;
+
+  line-height: 1.48;
+
+  color: var(--text-secondary);
+
+}
+
+
+
+/* ============================================================
+   ABOUT PAGE — PRINCIPLES
+   ============================================================ */
+
+.portfolio-page .principle > span {
+
+  font-size: 0.72rem;
+
+}
+
+
+.portfolio-page .principle strong {
+
+  font-size: 0.92rem;
+
+  line-height: 1.35;
+
+}
+
+
+.portfolio-page .principle p {
+
+  font-size: 0.84rem;
+
+  line-height: 1.52;
+
+}
+
+
+
+/* ============================================================
+   AI / NEXT EVOLUTION
+   ============================================================ */
+
+.portfolio-page .ai-direction p:last-child,
+.portfolio-page .ai-bridge p,
+.portfolio-page .ai-learning-note {
+
+  font-size: 0.86rem;
+
+  line-height: 1.58;
+
+}
+
+
+.portfolio-page .ai-topics span,
+.portfolio-page .ai-tags span {
+
+  font-size: 0.72rem;
+
+  line-height: 1.35;
+
+}
+
+
+
+/* ============================================================
+   GOVERNANCE PAGE
+   ============================================================ */
+
+.portfolio-page .summary-label,
+.portfolio-page .evidence-label {
+
+  font-size: var(--text-label);
+
+}
+
+
+.portfolio-page .summary-item strong {
+
+  font-size: 0.84rem;
+
+}
+
+
+.portfolio-page .navigator-link {
+
+  font-size: 0.82rem;
+
+  line-height: 1.40;
+
+}
+
+
+.portfolio-page .navigator-help {
+
+  font-size: 0.74rem;
+
+  line-height: 1.48;
+
+}
+
+
+.portfolio-page .overview-item strong {
+
+  font-size: 0.90rem;
+
+}
+
+
+.portfolio-page .overview-item small {
+
+  font-size: 0.78rem;
+
+  line-height: 1.42;
+
+}
+
+
+
+/* ============================================================
+   PROCESS / GOVERNANCE VISUALS
+   ============================================================ */
+
+.portfolio-page .stack-item strong {
+
+  font-size: 0.88rem;
+
+}
+
+
+.portfolio-page .stack-item span {
+
+  font-size: 0.76rem;
+
+  line-height: 1.42;
+
+}
+
+
+.portfolio-page .life-step,
+.portfolio-page .workflow-step,
+.portfolio-page .workflow-decision,
+.portfolio-page .metric-item,
+.portfolio-page .repo-item {
+
+  font-size: 0.78rem;
+
+  line-height: 1.35;
+
+}
+
+
+
+/* ============================================================
+   CASE STUDY PAGE
+   ============================================================ */
+
+.portfolio-page .case-select-content strong {
+
+  font-size: 0.88rem;
+
+  line-height: 1.35;
+
+}
+
+
+.portfolio-page .case-select-content small {
+
+  font-size: 0.80rem;
+
+  line-height: 1.45;
+
+}
+
+
+.portfolio-page .case-card-action {
+
+  font-size: 0.74rem;
+
+}
+
+
+.portfolio-page .case-instruction {
+
+  font-size: 0.84rem;
+
+  line-height: 1.50;
+
+}
+
+
+.portfolio-page .story-item p {
+
+  font-size: 0.84rem;
+
+  line-height: 1.55;
+
+}
+
+
+.portfolio-page .case-value {
+
+  font-size: 0.78rem;
+
+  line-height: 1.45;
+
+}
+
+
+
+/* ============================================================
+   CONTROLS / TRACEABILITY PAGE
+   ============================================================ */
+
+.portfolio-page .evidence-list {
+
+  font-size: 0.84rem;
+
+  line-height: 1.55;
+
+}
+
+
+.portfolio-page .card-tags span,
+.portfolio-page .strip-tags span {
+
+  font-size: 0.72rem;
+
+}
+
+
+.portfolio-page .portfolio-note {
+
+  font-size: 0.76rem;
+
+  line-height: 1.50;
+
+}
+
+
+
+/* ============================================================
+   TAGS
+   ============================================================ */
+
+/*
+   Bulma's are-small can become too tiny.
+   Keep tags readable while still secondary.
+*/
+
+.portfolio-page .tags.are-small .tag {
+
+  font-size: 0.72rem;
+
+  line-height: 1.25;
+
+}
+
+
+.portfolio-page .tag {
+
+  line-height: 1.30;
+
+}
+
+
+
+/* ============================================================
+   BUTTONS / CLICKABLE CONTROLS
+   ============================================================ */
+
+.portfolio-page .button {
+
+  font-size: 0.82rem;
+
+  line-height: 1.25;
+
+}
+
+
+.portfolio-page .button.is-small {
+
+  font-size: 0.75rem;
+
+}
+
+
+
+/* ============================================================
+   PORTFOLIO ACTION CARDS
+   ============================================================ */
+
+.portfolio-page .portfolio-links a {
+
+  font-size: 0.84rem;
+
+}
+
+
+.portfolio-page .portfolio-links span {
+
+  font-size: 0.68rem;
+
+}
+
+
+.portfolio-page .portfolio-links strong {
+
+  font-size: 0.86rem;
+
+}
+
+
+
+/* ============================================================
+   ACCESSIBILITY / READABILITY
+   ============================================================ */
+
+/*
+   Prevent excessively wide reading lines.
+*/
+
+.portfolio-page .hero-copy,
+.portfolio-page .hero-lead,
+.portfolio-page .section-intro,
+.portfolio-page .panel-intro {
+
+  text-wrap: pretty;
+
+}
+
+
+/*
+   Improve bold contrast without making it visually heavy.
+*/
+
+.portfolio-page strong {
+
+  font-weight: 600;
+
+}
+
+
+
+/* ============================================================
+   DESKTOP LARGE SCREEN
+   ============================================================ */
+
+@media (min-width: 1400px) {
+
+  .portfolio-page {
+
+    --text-body: 1rem;
+    --text-lead: 1.04rem;
+    --text-support: 0.86rem;
+
+  }
+
+}
+
+
+
+/* ============================================================
+   TABLET
+   ============================================================ */
+
+@media (max-width: 900px) {
+
+  .portfolio-page {
+
+    --text-body: 0.94rem;
+    --text-lead: 0.98rem;
+    --text-support: 0.83rem;
+
+  }
+
+}
+
+
+
+/* ============================================================
+   MOBILE
+   ============================================================ */
+
+@media (max-width: 600px) {
+
+  .portfolio-page {
+
+    --text-body: 0.94rem;
+    --text-lead: 0.98rem;
+    --text-support: 0.82rem;
+    --text-small: 0.76rem;
+    --text-label: 0.68rem;
+
+  }
+
+
+  .portfolio-page .title.is-2 {
+
+    font-size: 1.9rem;
+
+  }
+
+
+  .portfolio-page .title.is-3 {
+
+    font-size: 1.65rem;
+
+  }
+
+
+  .portfolio-page .title.is-4 {
+
+    font-size: 1.22rem;
+
+  }
+
+}

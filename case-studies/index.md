@@ -1,204 +1,1401 @@
 ---
 layout: default
-title: "Case Studies"
+title: "Process, Knowledge & Content Transformation"
 ---
 
-<section class="section" style="max-width: 1200px; margin: auto;">
-  <div class="container">
-    <h1 class="title is-3">📄 Case Studies & Documentation Impact</h1><br/>
-    <p class="mb-5 has-text-grey"><br/>
-      As the sole technical writer, I’ve led initiatives that not only improved clarity and accessibility,
-      but also drove strategic impact across engineering, sales, and support teams. These highlights demonstrate how
-      documentation can influence product success, collaboration, and stakeholder trust.
-    </p>
+<section class="section case-studies-page portfolio-page">
 
-    <div class="tabs is-toggle is-small is-centered">
-      <ul id="case-tabs">
-        <li class="is-active" data-tab="case1"><a>📘 Visual–First Documentation</a></li>
-        <li data-tab="case2"><a>🤖 AI-Chat Integration</a></li>
-        <li data-tab="case3"><a>〽️ Documentation Usage Tracking</a></li>
-      </ul>
-    </div><br/>
+  <div class="container case-shell">
 
-    <div id="case-content">
 
-      <!-- Case Study 1 -->
-        <div class="case-tab" id="case1">
-        <!-- Headings Row -->
-        <div class="columns is-mobile has-text-weight-bold mb-3">
-            <div class="column has-text-centered">
-            <h2 class="title is-5">🧠 Context</h2>
-            </div>
-            <div class="column has-text-centered">
-            <h2 class="title is-5">🛠️ My Role & Approach</h2>
-            </div>
-            <div class="column has-text-centered">
-            <h2 class="title is-5">✅ Impact</h2>
-            </div>
+    <!-- ========================================================= -->
+    <!-- HERO -->
+    <!-- ========================================================= -->
+
+    <section class="case-hero">
+
+      <p class="eyebrow">
+        SELECTED CASE STUDIES
+      </p>
+
+      <h1 class="title is-3 page-title">
+        Process, Knowledge & Content Transformation
+      </h1>
+
+      <p class="hero-copy">
+        Three examples showing how I improved complex information environments
+        through <strong>visual communication, knowledge discovery, workflow
+        automation, and usage analytics</strong>.
+      </p>
+
+      <div class="case-instruction">
+        <strong>Choose a case study:</strong>
+        Click any card below to view its challenge, approach, and outcome.
         </div>
 
-        <!-- Content Row -->
-        <div class="columns is-mobile is-variable is-6">
-            <div class="column has-text-centered">
-            <figure class="image is-flex is-justify-content-center mb-3">
-                <img src="{{ site.baseurl }}/assets/images/case-context-textheavy.png" alt="Text-Heavy Docs" style="height: 180px; object-fit: contain;">
-            </figure>
-                <p>
-                    Teams across global regions struggled to understand <strong>text-heavy English</strong> documentation, leading to <strong>frequent clarification requests and delays</strong>.
-                </p>
-            </div>
+    </section>
 
-            <div class="column has-text-centered">
-            <figure class="image is-flex is-justify-content-center mb-3">
-                <img src="{{ site.baseurl }}/assets/images/case-approach-visualfirst.png" alt="Visual-First Docs" style="height: 180px; object-fit: contain;">
-            </figure>
-            <p>
-                I introduced a <strong>visual-first approach</strong> for complex robotic workflows, creating illustrations and bilingual diagrams.
-                I also initiated a <strong>structured review process</strong> using annotated PDFs for non-technical reviewers.
-            </p>
-            </div>
 
-            <div class="column has-text-centered">
-            <figure class="image is-flex is-justify-content-center mb-3">
-                <img src="{{ site.baseurl }}/assets/images/case-impact-illustration.png" alt="Impact Illustration" style="height: 180px; object-fit: contain;">
-            </figure>
-            <p>
-                Cut documentation queries by ~40%. Stakeholders across <strong>language barriers</strong> could understand and give feedback confidently.
-                Documentation became a bridge — not a blocker.
-            </p>
-            </div>
+
+    <!-- ========================================================= -->
+    <!-- CASE SELECTOR -->
+    <!-- ========================================================= -->
+
+    <div class="case-selector"
+     id="case-selector">
+
+
+        <!-- CASE 1 -->
+
+        <button class="case-select active"
+                type="button"
+                data-target="case1"
+                aria-label="View Visual-First Documentation case study">
+
+            <span class="case-select-number">
+            01
+            </span>
+
+            <span class="case-select-content">
+
+            <strong>
+                Visual-First Documentation
+            </strong>
+
+            <small>
+                Simplifying complex workflows across language barriers
+            </small>
+
+            <span class="case-card-action">
+                View case study →
+            </span>
+
+            </span>
+
+        </button>
+
+
+
+        <!-- CASE 2 -->
+
+        <button class="case-select"
+                type="button"
+                data-target="case2"
+                aria-label="View AI-Assisted Knowledge Discovery case study">
+
+            <span class="case-select-number">
+            02
+            </span>
+
+            <span class="case-select-content">
+
+            <strong>
+                AI-Assisted Knowledge Discovery
+            </strong>
+
+            <small>
+                Making technical specifications easier to find
+            </small>
+
+            <span class="case-card-action">
+                View case study →
+            </span>
+
+            </span>
+
+        </button>
+
+
+
+        <!-- CASE 3 -->
+
+        <button class="case-select"
+                type="button"
+                data-target="case3"
+                aria-label="View Usage Analytics and Automation case study">
+
+            <span class="case-select-number">
+            03
+            </span>
+
+            <span class="case-select-content">
+
+            <strong>
+                Usage Analytics & Automation
+            </strong>
+
+            <small>
+                Turning documentation usage into actionable insight
+            </small>
+
+            <span class="case-card-action">
+                View case study →
+            </span>
+
+            </span>
+
+        </button>
+
         </div>
+
+
+
+    <!-- ========================================================= -->
+    <!-- CASE CONTENT -->
+    <!-- ========================================================= -->
+
+    <div class="case-display"
+         id="case-display">
+
+
+
+      <!-- ======================================================= -->
+      <!-- CASE 1 -->
+      <!-- ======================================================= -->
+
+      <article class="case-panel active"
+               id="case1">
+
+
+        <!-- HEADER -->
+
+        <div class="case-panel-header">
+
+          <div>
+
+            <p class="panel-kicker">
+              CASE STUDY 01
+            </p>
+
+            <h2 class="title is-4">
+              Visual-First Documentation for Global Teams
+            </h2>
+
+            <p class="case-summary">
+              Reframing complex robotics workflows so engineering,
+              QA, and non-native English stakeholders could understand
+              and review them more effectively.
+            </p>
+
+          </div>
+
+
+          <div class="case-tags">
+
+            <span>
+              Information Design
+            </span>
+
+            <span>
+              Visual Communication
+            </span>
+
+            <span>
+              Review Workflow
+            </span>
+
+          </div>
+
         </div>
 
-             <!-- Case Study 2 -->
-        <div class="case-tab is-hidden" id="case2">
-        <!-- Headings Row -->
-        <div class="columns is-mobile has-text-weight-bold mb-3">
-            <div class="column has-text-centered">
-            <h2 class="title is-5">🧠 Context</h2>
-            </div>
-            <div class="column has-text-centered">
-            <h2 class="title is-5">🛠️ My Role & Approach</h2>
-            </div>
-            <div class="column has-text-centered">
-            <h2 class="title is-5">✅ Impact</h2>
-            </div>
-        </div>
 
-        <!-- Content Row -->
-        <div class="columns is-mobile is-variable is-6">
-            <div class="column has-text-centered">
-            <figure class="image is-flex is-justify-content-center mb-3">
-                <img src="{{ site.baseurl }}/assets/images/case-context-botpress.png" alt="Botpress Context" style="height: 180px; object-fit: contain;">
+
+        <!-- 3-COLUMN STORY -->
+
+        <div class="story-grid">
+
+
+          <!-- CHALLENGE -->
+
+          <div class="story-item">
+
+            <p class="story-label">
+              CHALLENGE
+            </p>
+
+            <figure class="story-image">
+
+              <img
+                src="{{ site.baseurl }}/assets/images/case-context-textheavy.png"
+                alt="Text-heavy documentation challenge">
+
             </figure>
-            <p>
-                Users <strong>struggled to locate</strong> the right specifications in ReadTheDocs. The interface was not intuitive, and users had to browse multiple sections manually. This often led to confusion, wasted time, and frequent clarification requests.
-            </p>
-            </div>
 
-            <div class="column has-text-centered">
-            <figure class="image is-flex is-justify-content-center mb-3">
-                <img src="{{ site.baseurl }}/assets/images/case-approach-botpress.png" alt="Botpress Approach" style="height: 180px; object-fit: contain;">
-            </figure>
             <p>
-                I designed an <strong>AI-powered chatbot</strong> to simplify spec discovery. It supported <strong>natural language queries</strong>, improved ReadTheDocs search, and provided helpful previews for unclear questions.
+              Global teams were relying on
+              <strong>text-heavy English documentation</strong>
+              for complex robotic workflows, resulting in repeated
+              clarification requests and slower reviews.
             </p>
-            <p>
-                Users could now ask things like <em>"Where can I find the barcode format?"</em> — no need to memorize links.
-            </p>
-            </div>
 
-            <div class="column has-text-centered">
-            <figure class="image is-flex is-justify-content-center mb-3">
-                <img src="{{ site.baseurl }}/assets/images/case-impact-botpress.png" alt="Botpress Impact" style="height: 180px; object-fit: contain;">
-            </figure>
-            <p>
-                Added <strong>self-serve capability</strong> to internal teams and drastically reduced spec dependency queries.
-        It became easier for testers and support to trace feature specs.
+          </div>
+
+
+
+          <!-- APPROACH -->
+
+          <div class="story-item">
+
+            <p class="story-label">
+              APPROACH
             </p>
-            </div>
+
+            <figure class="story-image">
+
+              <img
+                src="{{ site.baseurl }}/assets/images/case-approach-visualfirst.png"
+                alt="Visual-first documentation approach">
+
+            </figure>
+
+            <p>
+              Introduced visual workflows, annotated diagrams,
+              and structured PDF reviews so technical and
+              non-technical stakeholders could interpret the
+              same process more consistently.
+            </p>
+
+          </div>
+
+
+
+          <!-- OUTCOME -->
+
+          <div class="story-item outcome-item">
+
+            <p class="story-label">
+              OUTCOME
+            </p>
+
+            <figure class="story-image">
+
+              <img
+                src="{{ site.baseurl }}/assets/images/case-impact-illustration.png"
+                alt="Visual documentation outcome">
+
+            </figure>
+
+            <p>
+              Documentation-related queries reduced by
+              <strong>approximately 40%</strong>, while cross-region
+              reviews became easier and more confident.
+            </p>
+
+          </div>
 
 
         </div>
+
+
+        <div class="case-value">
+
+          <strong>
+            What this demonstrates
+          </strong>
+
+          <span>
+            Information architecture • audience adaptation • workflow
+            simplification • cross-functional communication
+          </span>
+
+        </div>
+
+      </article>
+
+
+
+      <!-- ======================================================= -->
+      <!-- CASE 2 -->
+      <!-- ======================================================= -->
+
+      <article class="case-panel"
+               id="case2">
+
+
+        <div class="case-panel-header">
+
+          <div>
+
+            <p class="panel-kicker">
+              CASE STUDY 02
+            </p>
+
+            <h2 class="title is-4">
+              AI-Assisted Knowledge Discovery
+            </h2>
+
+            <p class="case-summary">
+              Exploring conversational access to technical specifications
+              so users could locate information without navigating
+              complex documentation structures manually.
+            </p>
+
+          </div>
+
+
+          <div class="case-tags">
+
+            <span>
+              Knowledge Discovery
+            </span>
+
+            <span>
+              Conversational AI
+            </span>
+
+            <span>
+              Self-Service
+            </span>
+
+          </div>
+
         </div>
 
 
 
-      <!-- Case Study 3 -->
-        <div class="case-tab is-hidden" id="case3">
-        <!-- Headings Row -->
-        <div class="columns is-mobile has-text-weight-bold mb-3">
-            <div class="column has-text-centered">
-            <h2 class="title is-5">🧠 Context</h2>
-            </div>
-            <div class="column has-text-centered">
-            <h2 class="title is-5">🛠️ My Role & Approach</h2>
-            </div>
-            <div class="column has-text-centered">
-            <h2 class="title is-5">✅ Impact</h2>
-            </div>
-        </div>
+        <div class="story-grid">
 
-        <!-- Content Row -->
-        <div class="columns is-mobile is-variable is-6">
-            <div class="column has-text-centered">
-            <figure class="image is-flex is-justify-content-center mb-3">
-                <img src="{{ site.baseurl }}/assets/images/case-context-visibility.png" alt="Documentation Visibility Context" style="height: 180px; object-fit: contain;">
+
+          <!-- CHALLENGE -->
+
+          <div class="story-item">
+
+            <p class="story-label">
+              CHALLENGE
+            </p>
+
+            <figure class="story-image">
+
+              <img
+                src="{{ site.baseurl }}/assets/images/case-context-botpress.png"
+                alt="Knowledge discovery challenge">
+
             </figure>
-            <p>
-                Documentation was published on ReadTheDocs, but there was <strong>no visibility into how or if it was being used</strong>.
-                Product owners and support leads couldn’t validate whether internal or external users were accessing the specs.
-                This created uncertainty during reviews and weakened the perceived value of documentation.
-            </p>
-            </div>
 
-            <div class="column has-text-centered">
-            <figure class="image is-flex is-justify-content-center mb-3">
-                <img src="{{ site.baseurl }}/assets/images/case-approach-visibility.png" alt="Visibility Tracking Approach" style="height: 180px; object-fit: contain;">
-            </figure>
             <p>
-                I implemented a lightweight <strong>Microsoft Forms + Power Automate</strong> system to gather intent before RTD access.
-                Users answered simple questions like:
+              Users struggled to locate the correct specifications
+              in Read the Docs and often depended on documentation
+              owners to identify the right page.
             </p>
-            <ul style="margin-left: 1.5rem; list-style-position: outside; padding-left: 1rem;">
-                <li style="margin-bottom: 0.5rem;">✔️ What feature or information are you looking for?</li>
-                <li style="margin-bottom: 0.5rem;">✔️ Was this page helpful?</li>
-            </ul>
-            <p>
-                These insights were compiled into monthly dashboards and shared with engineering, QA, and product teams.
-            </p>
-            </div>
 
-            <div class="column has-text-centered">
-            <figure class="image is-flex is-justify-content-center mb-3">
-                <img src="{{ site.baseurl }}/assets/images/case-impact-visibility.png" alt="Impact of Visibility Tracking" style="height: 180px; object-fit: contain;">
-            </figure>
-            <p>
-                The team gained <strong>quantifiable insights into documentation usage</strong> and user behavior.
-                Product stakeholders used this data to prioritize updates and retire unused pages.
-                Documentation visibility became part of Sprint reviews, improving alignment between content and feature delivery.
+          </div>
+
+
+
+          <!-- APPROACH -->
+
+          <div class="story-item">
+
+            <p class="story-label">
+              APPROACH
             </p>
-            </div>
+
+            <figure class="story-image">
+
+              <img
+                src="{{ site.baseurl }}/assets/images/case-approach-botpress.png"
+                alt="AI-assisted search approach">
+
+            </figure>
+
+            <p>
+              Designed a conversational knowledge-discovery experience
+              supporting <strong>natural-language questions</strong>
+              and direct access to relevant specification content.
+            </p>
+
+          </div>
+
+
+
+          <!-- OUTCOME -->
+
+          <div class="story-item outcome-item">
+
+            <p class="story-label">
+              OUTCOME
+            </p>
+
+            <figure class="story-image">
+
+              <img
+                src="{{ site.baseurl }}/assets/images/case-impact-botpress.png"
+                alt="Knowledge discovery outcome">
+
+            </figure>
+
+            <p>
+              Improved self-service access for internal teams and
+              reduced dependency on manual specification lookup
+              for testers and support users.
+            </p>
+
+          </div>
+
+
         </div>
+
+
+        <div class="case-value">
+
+          <strong>
+            What this demonstrates
+          </strong>
+
+          <span>
+            Knowledge management • search experience • conversational
+            interfaces • AI-assisted information discovery
+          </span>
+
         </div>
+
+      </article>
+
+
+
+      <!-- ======================================================= -->
+      <!-- CASE 3 -->
+      <!-- ======================================================= -->
+
+      <article class="case-panel"
+               id="case3">
+
+
+        <div class="case-panel-header">
+
+          <div>
+
+            <p class="panel-kicker">
+              CASE STUDY 03
+            </p>
+
+            <h2 class="title is-4">
+              Documentation Usage Analytics & Automation
+            </h2>
+
+            <p class="case-summary">
+              Creating visibility into how documentation was being used
+              so product and engineering teams could make better
+              content-maintenance decisions.
+            </p>
+
+          </div>
+
+
+          <div class="case-tags">
+
+            <span>
+              Power Automate
+            </span>
+
+            <span>
+              Usage Analytics
+            </span>
+
+            <span>
+              Continuous Improvement
+            </span>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="story-grid">
+
+
+          <!-- CHALLENGE -->
+
+          <div class="story-item">
+
+            <p class="story-label">
+              CHALLENGE
+            </p>
+
+            <figure class="story-image">
+
+              <img
+                src="{{ site.baseurl }}/assets/images/case-context-visibility.png"
+                alt="Documentation usage visibility challenge">
+
+            </figure>
+
+            <p>
+              Documentation was available in Read the Docs,
+              but stakeholders had limited visibility into
+              <strong>what users were looking for and whether
+              content was helping them</strong>.
+            </p>
+
+          </div>
+
+
+
+          <!-- APPROACH -->
+
+          <div class="story-item">
+
+            <p class="story-label">
+              APPROACH
+            </p>
+
+            <figure class="story-image">
+
+              <img
+                src="{{ site.baseurl }}/assets/images/case-approach-visibility.png"
+                alt="Documentation analytics approach">
+
+            </figure>
+
+            <p>
+              Built a lightweight feedback workflow using
+              <strong>Microsoft Forms and Power Automate</strong>
+              to capture user intent and content usefulness,
+              then consolidated the results for review.
+            </p>
+
+          </div>
+
+
+
+          <!-- OUTCOME -->
+
+          <div class="story-item outcome-item">
+
+            <p class="story-label">
+              OUTCOME
+            </p>
+
+            <figure class="story-image">
+
+              <img
+                src="{{ site.baseurl }}/assets/images/case-impact-visibility.png"
+                alt="Documentation analytics outcome">
+
+            </figure>
+
+            <p>
+              Product teams gained measurable usage insights
+              to prioritize improvements, retire lower-value content,
+              and bring documentation evidence into review discussions.
+            </p>
+
+          </div>
+
+
+        </div>
+
+
+        <div class="case-value">
+
+          <strong>
+            What this demonstrates
+          </strong>
+
+          <span>
+            Workflow automation • evidence-based decisions • KPI thinking •
+            stakeholder reporting • content lifecycle improvement
+          </span>
+
+        </div>
+
+      </article>
+
 
     </div>
 
+
+
+    <!-- ========================================================= -->
+    <!-- PORTFOLIO BRIDGE -->
+    <!-- ========================================================= -->
+
+    <section class="case-bridge">
+
+      <div>
+
+        <p class="bridge-label">
+          CONNECTING THE WORK
+        </p>
+
+        <h2 class="title is-5">
+          From documentation delivery to knowledge operations
+        </h2>
+
+        <p>
+          These projects reflect the broader evolution of my work:
+          moving beyond content creation into
+          <strong>information architecture, knowledge discovery,
+          workflow automation, measurement, and governance</strong>.
+        </p>
+
+      </div>
+
+    </section>
+
+
   </div>
+
 </section>
 
+
+
+<!-- =========================================================== -->
+<!-- STYLES -->
+<!-- =========================================================== -->
+
+<style>
+
+
+/* =========================================================== */
+/* PAGE */
+/* =========================================================== */
+
+.case-studies-page {
+
+  max-width: 1200px;
+  margin: auto;
+
+}
+
+
+.case-shell {
+
+  max-width: 1080px !important;
+
+}
+
+
+
+/* =========================================================== */
+/* HERO */
+/* =========================================================== */
+
+.case-hero {
+
+  max-width: 880px;
+
+  margin-bottom: 2rem;
+
+}
+
+
+.eyebrow,
+.panel-kicker,
+.story-label,
+.bridge-label {
+
+  color: #3273dc;
+
+  font-size: 0.67rem;
+
+  font-weight: 700;
+
+  letter-spacing: 0.1em;
+
+  text-transform: uppercase;
+
+}
+
+
+.eyebrow {
+
+  margin-bottom: 0.55rem;
+
+}
+
+
+.page-title {
+
+  margin-bottom: 0.85rem !important;
+
+}
+
+
+.hero-copy {
+
+  color: #666;
+
+  font-size: 1rem;
+
+  line-height: 1.6;
+
+}
+
+
+/* =========================================================== */
+/* CASE STUDY INSTRUCTION */
+/* =========================================================== */
+
+.case-instruction {
+
+  display: inline-block;
+
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+
+  padding: 0.7rem 0.9rem;
+
+  border-left: 3px solid #3273dc;
+
+  background: #f7f9fd;
+
+  color: #555;
+
+  font-size: 0.82rem;
+
+  line-height: 1.45;
+
+}
+
+.case-instruction strong {
+  color: #333;
+}
+
+
+
+/* =========================================================== */
+/* SELECTOR */
+/* =========================================================== */
+
+.case-selector {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 0.8rem;
+
+  margin-bottom: 1.75rem;
+
+}
+
+
+.case-select {
+
+  position: relative;
+
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 0.75rem;
+
+  min-height: 125px;
+
+  padding: 1rem;
+
+  border: 1px solid #dddddd;
+
+  border-radius: 9px;
+
+  background: #fff;
+
+  font-family: inherit;
+
+  text-align: left;
+
+  cursor: pointer;
+
+  transition:
+    border-color .18s ease,
+    background .18s ease,
+    transform .18s ease,
+    box-shadow .18s ease;
+
+}
+
+
+.case-select:hover {
+
+  border-color: #3273dc;
+
+  background: #fafcff;
+
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 8px 20px rgba(50, 115, 220, 0.10);
+
+}
+
+
+.case-select:focus-visible {
+
+  outline: 3px solid rgba(50, 115, 220, 0.22);
+
+  outline-offset: 2px;
+
+}
+
+
+.case-select.active {
+
+  border: 2px solid #3273dc;
+
+  background: #f5f8ff;
+
+  box-shadow:
+    0 6px 16px rgba(50, 115, 220, 0.08);
+
+}
+
+.case-card-action {
+
+  display: inline-block;
+
+  margin-top: auto;
+  padding-top: 0.7rem;
+
+  color: #3273dc;
+
+  font-size: 0.68rem;
+  font-weight: 700;
+
+  transition:
+    transform .15s ease;
+
+}
+
+
+.case-select:hover .case-card-action {
+
+  transform: translateX(3px);
+
+}
+
+
+.case-select.active .case-card-action {
+
+  color: #245fc0;
+
+}
+
+
+.case-select-number {
+
+  color: #3273dc;
+
+  font-size: 0.63rem;
+
+  font-weight: 700;
+
+  padding-top: 0.1rem;
+
+}
+
+
+.case-select-content {
+
+  display: flex;
+
+  flex-direction: column;
+
+  height: 100%;
+
+}
+
+
+.case-select-content strong {
+
+  color: #333;
+
+  font-size: 0.82rem;
+
+  margin-bottom: 0.3rem;
+
+}
+
+
+.case-select-content small {
+
+  color: #777;
+
+  line-height: 1.4;
+
+}
+
+
+
+/* =========================================================== */
+/* DISPLAY */
+/* =========================================================== */
+
+.case-display {
+
+  min-height: 500px;
+
+}
+
+
+.case-panel {
+
+  display: none;
+
+}
+
+
+.case-panel.active {
+
+  display: block;
+
+  animation: caseFade .2s ease;
+
+}
+
+
+@keyframes caseFade {
+
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+}
+
+
+
+/* =========================================================== */
+/* PANEL HEADER */
+/* =========================================================== */
+
+.case-panel-header {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: flex-start;
+
+  gap: 2rem;
+
+  padding: 1.25rem 0;
+
+  border-top: 1px solid #eee;
+
+}
+
+
+.panel-kicker {
+
+  margin-bottom: 0.35rem;
+
+}
+
+
+.case-panel-header .title {
+
+  margin-bottom: 0.5rem !important;
+
+}
+
+
+.case-summary {
+
+  max-width: 680px;
+
+  color: #666;
+
+  font-size: 0.87rem;
+
+  line-height: 1.55;
+
+}
+
+
+.case-tags {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 0.35rem;
+
+  justify-content: flex-end;
+
+  max-width: 260px;
+
+}
+
+
+.case-tags span {
+
+  padding: 0.35rem 0.55rem;
+
+  border-radius: 5px;
+
+  background: #f5f5f5;
+
+  color: #666;
+
+  font-size: 0.63rem;
+
+}
+
+
+
+/* =========================================================== */
+/* STORY GRID */
+/* =========================================================== */
+
+.story-grid {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 1rem;
+
+}
+
+
+.story-item {
+
+  border: 1px solid #e8e8e8;
+
+  border-radius: 10px;
+
+  padding: 1rem;
+
+  background: #fff;
+
+}
+
+
+.outcome-item {
+
+  background: #fbfefb;
+
+  border-color: #e2eee5;
+
+}
+
+
+.story-label {
+
+  margin-bottom: 0.75rem;
+
+}
+
+
+.story-image {
+
+  height: 150px;
+
+  margin-bottom: 0.8rem;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  overflow: hidden;
+
+}
+
+
+.story-image img {
+
+  max-width: 100%;
+
+  max-height: 145px;
+
+  object-fit: contain;
+
+}
+
+
+.story-item p {
+
+  color: #666;
+
+  font-size: 0.8rem;
+
+  line-height: 1.55;
+
+}
+
+
+
+/* =========================================================== */
+/* CASE VALUE */
+/* =========================================================== */
+
+.case-value {
+
+  display: flex;
+
+  gap: 0.75rem;
+
+  align-items: baseline;
+
+  margin-top: 1rem;
+
+  padding: 0.85rem 1rem;
+
+  border-radius: 7px;
+
+  background: #f7f7f7;
+
+  font-size: 0.72rem;
+
+}
+
+
+.case-value strong {
+
+  color: #444;
+
+  white-space: nowrap;
+
+}
+
+
+.case-value span {
+
+  color: #777;
+
+}
+
+
+
+/* =========================================================== */
+/* BRIDGE */
+/* =========================================================== */
+
+.case-bridge {
+
+  margin-top: 2rem;
+
+  padding: 1.3rem 1.4rem;
+
+  border: 1px solid #e7eee8;
+
+  border-radius: 9px;
+
+  background: #f8fcf9;
+
+}
+
+
+.bridge-label {
+
+  color: #4f8c60;
+
+  margin-bottom: 0.35rem;
+
+}
+
+
+.case-bridge .title {
+
+  margin-bottom: 0.5rem !important;
+
+}
+
+
+.case-bridge p:last-child {
+
+  color: #666;
+
+  line-height: 1.55;
+
+  font-size: 0.84rem;
+
+}
+
+
+
+/* =========================================================== */
+/* RESPONSIVE */
+/* =========================================================== */
+
+@media (max-width: 800px) {
+
+  .case-selector,
+  .story-grid {
+
+    grid-template-columns: 1fr;
+
+  }
+
+
+  .case-select {
+
+    min-height: auto;
+
+  }
+
+
+  .case-panel-header {
+
+    display: block;
+
+  }
+
+
+  .case-tags {
+
+    justify-content: flex-start;
+
+    margin-top: 0.8rem;
+
+    max-width: none;
+
+  }
+
+
+  .case-display {
+
+    min-height: 0;
+
+  }
+
+}
+
+
+@media (max-width: 560px) {
+
+  .case-value {
+
+    display: block;
+
+  }
+
+
+  .case-value strong {
+
+    display: block;
+
+    margin-bottom: 0.3rem;
+
+  }
+
+}
+
+</style>
+
+
+
+<!-- =========================================================== -->
+<!-- INTERACTION -->
+<!-- =========================================================== -->
+
 <script>
-  const tabs = document.querySelectorAll("#case-tabs li");
-  const cases = document.querySelectorAll(".case-tab");
-  tabs.forEach(tab => {
-    tab.addEventListener("click", () => {
-      tabs.forEach(t => t.classList.remove("is-active"));
-      tab.classList.add("is-active");
-      const id = tab.getAttribute("data-tab");
-      cases.forEach(c => {
-        c.classList.add("is-hidden");
-        if (c.id === id) c.classList.remove("is-hidden");
-      });
-    });
-  });
+
+document.addEventListener(
+  "DOMContentLoaded",
+  function () {
+
+
+    const selectors =
+      Array.from(
+        document.querySelectorAll(
+          ".case-select"
+        )
+      );
+
+
+    const panels =
+      Array.from(
+        document.querySelectorAll(
+          ".case-panel"
+        )
+      );
+
+
+    function openCase(caseId) {
+
+
+      selectors.forEach(
+        function (button) {
+
+          button.classList.toggle(
+            "active",
+            button.dataset.target ===
+              caseId
+          );
+
+        }
+      );
+
+
+      panels.forEach(
+        function (panel) {
+
+          panel.classList.toggle(
+            "active",
+            panel.id === caseId
+          );
+
+        }
+      );
+
+
+      if (history.replaceState) {
+
+        history.replaceState(
+          null,
+          "",
+          "#" + caseId
+        );
+
+      }
+
+    }
+
+
+
+    selectors.forEach(
+      function (button) {
+
+        button.addEventListener(
+          "click",
+          function () {
+
+            openCase(
+              button.dataset.target
+            );
+
+          }
+        );
+
+      }
+    );
+
+
+
+    const hash =
+      window.location.hash
+        .replace("#", "");
+
+
+    const valid =
+      panels.some(
+        function (panel) {
+
+          return panel.id === hash;
+
+        }
+      );
+
+
+    openCase(
+      valid
+        ? hash
+        : "case1"
+    );
+
+  }
+);
+
 </script>

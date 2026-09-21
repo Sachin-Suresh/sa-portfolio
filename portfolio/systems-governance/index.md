@@ -3,7 +3,7 @@ layout: default
 title: "Cybersecurity Governance & Knowledge Operations"
 ---
 
-<section class="section governance-page">
+<section class="section governance-page portfolio-page">
 
   <div class="container governance-shell">
 

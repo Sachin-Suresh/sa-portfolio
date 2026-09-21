@@ -3,7 +3,8 @@ layout: default
 title: "Sachin Suresh | Governance & Knowledge Management"
 ---
 
-<section class="section" style="max-width: 1200px; margin: auto;">
+<section class="section portfolio-page"
+         style="max-width: 1200px; margin: auto;">
 
   <div class="container">
 
