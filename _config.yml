@@ -3,56 +3,61 @@ markdown: kramdown
 
 # URL of the Site
 url: "https://sachin-suresh.github.io"
-# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+
+# Base URL of the Site
 baseurl: "/sa-portfolio"
 
-# Google analytics
+# Google Analytics
 google_analytics: G-2L8GP50MES
 
-# Title of the Site
-title: Tech Writer | Writing for Product Success
-# Description of the Site
-description: "Explore UX writing, documentation, and technical writing samples by Sachin Suresh."
-# URL of Image of the Site
+# Site Branding
+title: "Sachin Suresh | Governance & Knowledge Management"
+
+description: >
+  Portfolio of Sachin Suresh covering cybersecurity governance,
+  knowledge management, information architecture, process design,
+  technical documentation, and emerging AI governance.
+
 site-image: https://sachin-suresh.github.io/sa-portfolio/assets/images/og-image.jpg
 
-# Keywords of the Site
-site-keywords: technical writing, technical editing, UX writing, API documentation, documentation samples, Sachin Suresh
-# URL for the Image of custom Favicon
-favicon-url: 
+site-keywords: >
+  Sachin Suresh,
+  cybersecurity governance,
+  knowledge management,
+  knowledge governance,
+  information architecture,
+  documentation governance,
+  technical documentation,
+  process design,
+  workflow design,
+  AI governance,
+  responsible AI,
+  REST API documentation
 
-# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+favicon-url:
+
+# Optional Hero Image
 heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
 
 # Social Media and Contact
-# If you don't want to use any icon, you can leave them blank.
-email: sach7411@gmail.com
+email: sach7411.uae@gmail.com
 facebook_username:
 twitter_username:
 instagram_username:
 linkedin_username: sachin-mca
 github_username:
 youtube_channel_id:
-reddit_username: /
-behance_username: /
-dribbble_username: /
-spotify_username: /
+reddit_username:
+behance_username:
+dribbble_username:
+spotify_username:
 
-# Google Analytics
-google-analytics:
-
-# Disqus
-disqus-shortname:
-
-# Name of the Author
+# Author
 author-name: "Sachin Suresh"
-# URL for the Image of the Author
 author-image:
 
-# 60 Words About the Author
-author-about: # Updated in about.html
+author-about:
 
-# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/Sachin-Suresh
 
 # SASS
@@ -68,7 +73,7 @@ plugins:
 # Permalink
 permalink: "blog/:title"
 
-# Compress
+# Compress HTML
 compress_html:
   clippings: all
 
@@ -93,7 +98,7 @@ defaults:
 include:
   - googlec53646d4e8e1c312.html
 
-# Exclude
+# Exclude generated/dependency folders
 exclude:
   - .sass-cache/
   - .jekyll-cache/
